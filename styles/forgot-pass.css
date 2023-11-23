@@ -48,3 +48,11 @@ body, html {
     left: 27.3%;
     top: -34.5%;
 }
+.fb {
+    position: absolute;
+}
+.db {
+    align-items: center;
+    border: 1px solid black;
+    translate: middle;
+}

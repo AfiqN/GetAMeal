@@ -18,14 +18,18 @@
                 <input type="text" class="fl form-floating form-control" id="inputAddress" placeholder="Email">
                 <span class="fr input-group-text"><img src="/src/icon/email.svg" class="f-label"></span>
             </div>
-            <div class="f input-group mb-3">
-                <input type="password" class="fl form-floating form-control" id="inputAddress" placeholder="Password">
-                <span class="fr input-group-text"><img src="/src/icon/Password.svg" class="f-label"></span>
-            </div>  
 
             
-            <a href="/html/forgot-pass.html" class="text-secondary float-end">Forgot Password?</a>
-            <br>
+            
+            <div class="f input-group mb-3">
+                <input type="password" class="fl form-floating form-control" id="inputAddress" placeholder="Password">
+                <div class="db input-group-append px-3">
+                    <button class="fb btn btn-primary rounded-3 text-light btn-sm" type="Register">Send Code</button>
+                </div>
+            </div>  
+            
+
+            
             <div class="button mt-4 d-flex justify-content-between">
                 <button onclick="redirectToPage()" class="btn btn-primary rounded-4 text-light" type="Back" style="width: 187px;">Create Account</button>
                 <button class="btn btn-primary rounded-4 text-light" type="Register" style="width: 187px;">Continue</button>
