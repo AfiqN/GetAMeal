@@ -1,9 +1,4 @@
 body, html {
-    background-color: azure;
-    background-image: url("/src/images/Background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100%;
 }
 .bg {
