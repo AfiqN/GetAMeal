@@ -46,13 +46,5 @@ body, html {
     background-color: #f0f0f0; /* Background color */
     overflow: hidden; /* Hide the overflowing parts */
     left: 27.3%;
-    top: -34.5%;
-}
-.fb {
-    position: absolute;
-}
-.db {
-    align-items: center;
-    border: 1px solid black;
-    translate: middle;
+    top: -25.2%;
 }
