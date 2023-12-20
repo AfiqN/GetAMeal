@@ -1,3 +1,3 @@
 function redirectToPage() {
-    window.location.href = "/html/sign-in.html";
+    window.location.href = "/sign-in";
 }

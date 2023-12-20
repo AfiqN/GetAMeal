@@ -19,6 +19,7 @@ body, html {
 }
 .logo {
     margin-top: -20px;
+    width: 80%;
 }
 .mynav li a {
     color: #fff;
@@ -55,6 +56,7 @@ body, html {
 }
 .BIcon {
     width: 30px;
+    margin-bottom: 12px;
 }
 .AddBook {
     font-size: 17px;
@@ -67,5 +69,95 @@ body, html {
     font-size: 20px;
 }
 .logout {
+    font-weight: bold;
+}
+.bookmark {
+    max-height: 340px;
+    /* min-height: 40px; */
+    height: auto;
+}
+.li-item {
+    background-color: transparent;
+    border: none;
+}
+
+
+/* search */
+.search-bar::placeholder {
+    text-align: center;
+}
+.search-left {
+    border-radius: 20px 0 0 20px; 
+    border: none;
+}
+.search-right {
+    border-radius: 0 20px 20px 0; 
+    background-color: white; 
+    border: none;
+}
+
+
+/* main panel */
+.main-panel {
+    border-radius: 0 26px 26px 0;
+    background-color: white;
+    /* margin: 30px 40px 0 0; */
+    height: 85%;
+    width: 97%;
+}   
+.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.grey-area {
+    background-color: #D6D6D6;
+    position: relative;
+    height: 83%;
+    border-radius: 26px;
+    margin: 0 26px 0 20px;
+}
+.separator {
+    background-color: #929292;
+    border-radius: 10px;
+    height: 15px;
+}
+.food {
+    padding: 0 15px;
+    height: 70%;
+}
+.arrow-icon {
+    color: black;
+}
+.carousel-control-next {
+    right: -50px;
+    width: 10%;
+}
+.carousel-control-prev {
+    left: -50px;
+    width: 10%;
+}
+.card {
+    border-radius: 25px;
+    margin: 12px;
+    padding: 0;
+    height: 263px;
+}
+.card-img {
+    width: 100%;
+    border-radius: 25px 25px 0 0 ;
+}
+.drawer-bar{
+    align-items: center;
+    justify-content: center;
+    background-color: #ECEAEA;
+    height: 4.9px;
+    width: 87px;
+    border-radius: 13px;
+}
+.card-body {
+    background-color: #EE9C2D;
+    border-radius: 25px;
+    margin-top: -18px;
     font-weight: bold;
 }

@@ -1,21 +1,17 @@
 const express = require('express');
 const router = express.Router({mergeParams: true});
-const catchAsync = require('../utils/catchAsync');
-const passport = require('passport');
 const user = require('../controllers/user');
-const {storeReturnTo} = require('../middleware');
+
+router.route('/')
+    .get(user.renderSignInView);
 
 router.route('/sign-up')
-    .get(user.renderSignUpView)
-    .post(catchAsync(user.signUpUser));
+    .get(user.renderSignUpView);
 
 router.route('/sign-in')
-    .get(user.renderSignInView)
-    .get(storeReturnTo, passport.authenticate('local', {
-        failureFlash: true,
-        failureRedirect: '/sign-in'
-    }), user.signInUser);
+    .get(user.renderSignInView);
 
-router.route('/sign-out', user.signOutUser);
+router.route('/forgot-pass')
+    .get(user.renderForgotPassword);
 
 module.exports = router;

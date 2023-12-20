@@ -1,13 +1,25 @@
 const express = require('express');
 const path = require('path');
-const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
-const session = require('express-session');
-const MongoStore = require('connect-mongo');
-const flash = require('connect-flash');
-const ExpressError = require('./utils/ExpressError.js');
 const methodOverride = require('method-override');
-const passport = require('passport');
-const LocalStrategy = require('passport-local');
 
+const routeUser = require('./routes/user.js');
+const routeBookmark = require('./routes/bookmark.js');
+const routeMakanan = require('./routes/makanan.js');
 
+const app = express();
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+app.engine('ejs', ejsMate);
+
+app.use(methodOverride('_method'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/', routeUser);
+app.use('/dashboard', routeMakanan);
+
+const port = process.env.PORT || 3000;
+
+app.listen(port, ()=>{
+    console.log('listening on http://localhost:3000');
+})

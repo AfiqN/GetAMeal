@@ -1,7 +1,7 @@
 function redirectToPage() {
-    window.location.href = "/html/sign-up.html";
+    window.location.href = "/sign-up";
 }
 
 function redirectDashboard() {
-    window.location.href = "/html/dashboard.html";
+    window.location.href = "/dashboard";
 }
