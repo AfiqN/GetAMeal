@@ -127,3 +127,18 @@ body, html {
     justify-content: center;
     align-self: center;
 }
+.img {
+    border-radius: 25px;
+    height: 95%;
+    max-width: 500px;
+}
+.right-desc {
+    background-color: white;
+    border-radius: 26px;
+}
+.title-food {
+    background-color: #F9A532;
+    border-radius: 18px;
+    margin: 20px 0;
+    width: 60%;
+}
