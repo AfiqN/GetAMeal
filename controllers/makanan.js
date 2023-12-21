@@ -5,3 +5,9 @@ module.exports.renderDashboard = (req, res) => {
 module.exports.renderDeskripsi = (req, res) => {
     res.render('dashboard/deskripsi')
 }
+module.exports.renderResep = (req, res) => {
+    res.render('dashboard/resep')
+}
+module.exports.renderProsedur = (req, res) => {
+    res.render('dashboard/prosedur')
+}
