@@ -99,7 +99,7 @@
         
         <div class="col-12">
             <hr class="opacity-100 my-auto">
-            <button type="button" class="btn btn-outline-link">
+            <button data-bs-toggle="modal" data-bs-target="#addBookmarkModal" class="btn btn-outline-link">
                 <div class="row gutter-none">
                     <img class="AddIcon px-0 col-2 text-white" src="/src/icon/plus.svg">
                     <span class="AddBook px-0 col-10 text-white">Add Bookmark</span>
@@ -112,7 +112,7 @@
                 <button onclick="redirectSignIn()" class="btn btn-light align-items-end"><span class="logout px-5">LOGOUT</span></button>
             </div>
         </div>
-
     </div>
-
 </div>
+
+<%- include('../partials/ModalAddBookmark') %>
