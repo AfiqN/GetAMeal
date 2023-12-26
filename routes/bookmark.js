@@ -3,6 +3,7 @@ const router = express.Router({mergeParams: true});
 const bookmark = require('../controllers/bookmark');
 const makanan = require('../controllers/makanan');
 
+router.route('/')
+    .get(bookmark.renderBookmark);
 
-
-module.export = router;
+module.exports = router;

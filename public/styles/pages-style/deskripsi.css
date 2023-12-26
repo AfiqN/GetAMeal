@@ -130,7 +130,7 @@ body, html {
 .img {
     border-radius: 25px;
     height: 95%;
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 .right-desc {
     background-color: white;

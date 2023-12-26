@@ -1,0 +1,19 @@
+.bookmark-card {
+    background-color: white;
+    border-radius: 10px;
+}
+.btn-bookmark {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.img-top {
+    width: 107px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.b-top {
+    background-color: #D6D6D6;
+    border-radius: 10px;
+}
