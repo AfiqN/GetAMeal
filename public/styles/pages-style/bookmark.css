@@ -8,12 +8,15 @@
     margin-bottom: 5%;
 }
 .img-top {
-    width: 107px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 .b-top {
     background-color: #D6D6D6;
     border-radius: 10px;
+}
+.add-btn-1 {
+    font-weight: bold;
 }
