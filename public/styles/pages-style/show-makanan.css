@@ -1,0 +1,7 @@
+/* .card-body {
+    border: 2px solid black;
+} */
+.card {
+    height: 90%;
+    border: none;
+}

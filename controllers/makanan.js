@@ -11,3 +11,6 @@ module.exports.renderResep = (req, res) => {
 module.exports.renderProsedur = (req, res) => {
     res.render('dashboard/prosedur')
 }
+module.exports.renderListMakanan = (req, res) => {
+    res.render('dashboard/show-makanan')
+}

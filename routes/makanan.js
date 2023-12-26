@@ -10,6 +10,8 @@ router.route('/deskripsi/resep')
     .get(makanan.renderResep);
 router.route('/deskripsi/prosedur')
     .get(makanan.renderProsedur);
+router.route('/list-makanan')
+    .get(makanan.renderListMakanan);
 
 
 module.exports = router;
