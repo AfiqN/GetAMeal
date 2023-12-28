@@ -3,5 +3,5 @@ function redirectToPage() {
 }
 
 function redirectDashboard() {
-    window.location.href = "/dashboard";
+    window.location.href = "/makanan/rekomendasi";
 }

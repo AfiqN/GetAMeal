@@ -1,12 +1,12 @@
 function backButton() {
-    window.location.href = "/dashboard";
+    window.location.href = "/makanan/rekomendasi";
 }
 function redirectToInfo() {
-    window.location.href = "/dashboard/deskripsi";
+    window.location.href = "/makanan/:id";
 }
 function redirectResep() {
-    window.location.href = "/dashboard/deskripsi/resep";
+    window.location.href = "/makanan/:id/resep";
 }
 function redirectProsedur() {
-    window.location.href = "/dashboard/deskripsi/prosedur";
+    window.location.href = "/makanan/:id/prosedur";
 }

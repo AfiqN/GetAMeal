@@ -1,3 +1,3 @@
 function redirectMakanan() {
-    window.location.href = "/dashboard/list-makanan";
+    window.location.href = "/bookmark/:id";
 }

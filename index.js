@@ -16,9 +16,8 @@ app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routeUser);
-app.use('/dashboard', routeMakanan);
+app.use('/makanan', routeMakanan);
 app.use('/bookmark', routeBookmark);
-app.use('/list-makanan', routeMakanan);
 
 const port = process.env.PORT || 3000;
 

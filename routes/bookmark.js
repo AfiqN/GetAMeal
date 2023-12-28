@@ -6,4 +6,8 @@ const makanan = require('../controllers/makanan');
 router.route('/')
     .get(bookmark.renderBookmark);
 
+router.route('/:id')
+    .get(makanan.renderListMakanan);
+
+
 module.exports = router;

@@ -2,14 +2,18 @@ const express = require('express');
 const router = express.Router({mergeParams: true});
 const makanan = require('../controllers/makanan');
 
-router.route('/')
+router.route('/rekomendasi')
     .get(makanan.renderDashboard);
-router.route('/deskripsi')
+
+router.route('/:id') // :id
     .get(makanan.renderDeskripsi);
-router.route('/deskripsi/resep')
+
+router.route('/:id/resep')
     .get(makanan.renderResep);
-router.route('/deskripsi/prosedur')
+
+router.route('/:id/prosedur')
     .get(makanan.renderProsedur);
+    
 router.route('/list-makanan')
     .get(makanan.renderListMakanan);
 
