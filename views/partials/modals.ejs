@@ -90,26 +90,20 @@
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // Ambil referensi tombol "Submit" dan "Close"
     var submitBtn = document.getElementById('submitBtn');
     var closeBtn = document.getElementById('closeBtn');
 
-    // Tambahkan event listener untuk tombol "Submit"
     submitBtn.addEventListener('click', function () {
         resetCheckboxes();
     });
 
-    // Tambahkan event listener untuk tombol "Close"
     closeBtn.addEventListener('click', function () {
         resetCheckboxes();
     });
 
-    // Fungsi untuk mereset nilai (uncheck) checkbox
     function resetCheckboxes() {
-        // Ambil semua checkbox
         var checkboxes = document.querySelectorAll('.modal-body input[type="checkbox"]');
 
-        // Reset nilai (uncheck) setiap checkbox
         checkboxes.forEach(function (checkbox) {
             checkbox.checked = false;
         });
