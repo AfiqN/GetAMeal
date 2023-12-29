@@ -11,7 +11,4 @@ router.route('/sign-up')
 router.route('/sign-in')
     .get(user.renderSignInView);
 
-router.route('/forgot-pass')
-    .get(user.renderForgotPassword);
-
 module.exports = router;

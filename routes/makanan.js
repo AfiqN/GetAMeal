@@ -5,17 +5,19 @@ const makanan = require('../controllers/makanan');
 router.route('/rekomendasi')
     .get(makanan.renderDashboard);
 
-router.route('/:id') // :id
-    .get(makanan.renderDeskripsi);
+router.route('/cari')
+    .get(makanan.renderCariMakanan);
 
+router.route('/list-makanan')
+    .get(makanan.renderListMakanan);
+    
 router.route('/:id/resep')
     .get(makanan.renderResep);
 
 router.route('/:id/prosedur')
     .get(makanan.renderProsedur);
-    
-router.route('/list-makanan')
-    .get(makanan.renderListMakanan);
 
+router.route('/:id') // :id
+    .get(makanan.renderDeskripsi);
 
 module.exports = router;

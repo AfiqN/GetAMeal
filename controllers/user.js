@@ -5,7 +5,3 @@ module.exports.renderSignUpView = (req, res) => {
 module.exports.renderSignInView = (req, res) => {
     res.render('user/sign-in');
 }
-
-module.exports.renderForgotPassword = (req, res) => {
-    res.render('user/forgot-pass');
-}

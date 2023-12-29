@@ -13,3 +13,7 @@ module.exports.renderProsedur = (req, res) => {
 module.exports.renderListMakanan = (req, res) => {
     res.render('dashboard/show-makanan')
 }
+
+module.exports.renderCariMakanan = (req, res) => {
+    res.render('dashboard/cari')
+}
