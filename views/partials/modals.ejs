@@ -111,9 +111,31 @@
                 <hr>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cari</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
             </div>
         </div>
     </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var submitBtn = document.getElementById('submitBtn');
+    var closeBtn = document.getElementById('closeBtn');
+
+    submitBtn.addEventListener('click', function () {
+        resetCheckboxes();
+    });
+
+    closeBtn.addEventListener('click', function () {
+        resetCheckboxes();
+    });
+
+    function resetCheckboxes() {
+        var checkboxes = document.querySelectorAll('.modal-body input[type="checkbox"]');
+
+        checkboxes.forEach(function (checkbox) {
+            checkbox.checked = false;
+        });
+    }
+});
+</script>
