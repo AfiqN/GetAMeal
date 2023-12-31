@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const MakananSchema = new Schema({
-    id: Number,
-    namal: String,
+    nama_makanan: String,
     deskripsi: String,
     path_gambar: String,
     click_count: Number,

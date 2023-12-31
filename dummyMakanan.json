@@ -1,11 +1,11 @@
 [
     {
-        "nama": "Mie Goreng Nyemek",
+        "nama_makanan": "Mie Goreng Nyemek",
         "deskripsi": "Penyuka mie nyemek atau mie goreng wajib banget coba resep ini. Hidangan mie yang dipopulerkan dari Yogyakarta ini punya banyak penggemar karena tekstur kuahnya yang kental dan kaya rasa. Masakan ini juga memuaskan pencinta mie rebus yang ingin menikmati cita rasa mie goreng namun tetap bisa menikmati kuahnya.Mie goreng nyemek ini bukan cuma enak disantap sebagai menu makan malam, tetapi juga makan siang atau sarapan. Selain mie telur kering, kamu juga bisa menggunakan jenis mie lain seperti mie telur segar, mie kuning, atau kwetiau.",
-        "path-gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/01/bacem-tahu-tempe-780x440.jpg",
-        "click-count": 0,
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/01/bacem-tahu-tempe-780x440.jpg",
+        "click_count": 0,
         "resep" : [
-            "140 g mie telur kering, rebus setengah matang, tiriskan",
+            "140g mie telur kering, rebus setengah matang, tiriskan",
             "6 batang sawi hijau, potong 3 cm",
             "2 butir telur ayam",
             "5 butir bakso sapi, iris",
@@ -14,8 +14,8 @@
             "1 sdt Royco Kaldu Ayam",
             "1 batang daun bawang, potong 2 cm",
             "2 batang seledri, iris kasar",
-            "100 ml air",
-            "3 sdm minyak, untuk menumis",
+            "100ml air",
+            "3 sdm minyak, untuk menumis"
         ],
         "prosedur" : [
             "Bumbu mie goreng nyemek: Haluskan semua bahan bumbu. Sisihkan.",
@@ -24,21 +24,21 @@
             "Masukkan sawi, Royco Saus Tiram, Royco Kaldu Ayam, dan mie, aduk rata.",
             "Tambahkan Bango Kecap Manis Less Sugar dan daun bawang, aduk hingga tercampur rata.",
             "Tuang air dan seledri, aduk rata dan masak sebentar hingga meresap. Angkat.",
-            "Sajikan mie goreng nyemek bersama bahan pelengkap.",
+            "Sajikan mie goreng nyemek bersama bahan pelengkap."
         ],
         "kategori" : [
             "mie",
             "asin",
             "pedas",
             "panas",
-            "goreng",
-        ],
+            "goreng"
+        ]
     },
     {
-        "nama": "Oseng Kangkung",
+        "nama_makanan": "Oseng Kangkung",
         "deskripsi": "Lagi cari ide resep sayur yang praktis dan enak? Bikin oseng kangkung bawang putih aja, yuk! Bahan-bahan dan bumbunya  sederhana dengan cara membuatnya yang juga mudah. Resep oseng kangkung bumbu bawang putih sederhana ini enak disajikan dengan berbagai variasi lauk. Misalnya ayam kecap, tumis daging cincang tahu, atau cumi saus padang.",
-        "path-gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Oseng-Kangkung-Bawang-Putih-Sederhana-780x440.jpg",
-        "click-count": 0,
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Oseng-Kangkung-Bawang-Putih-Sederhana-780x440.jpg",
+        "click_count": 0,
         "resep" : [
             "500 g (2 ikat) kangkung, siangi",
             "4 siung bawang putih, memarkan",
@@ -49,7 +49,7 @@
         "prosedur" : [
             "Siangi kangkung, lalu cuci bersih dan tiriskan. Sisihkan.",
             "Panaskan minyak, tumis bawang putih dan cabai hingga harum. Tambahkan Royco Saus Tiram, aduk.",
-            "Masukkan kangkung, aduk rata hingga kangkung layu. Angkat dan sajikan.",
+            "Masukkan kangkung, aduk rata hingga kangkung layu. Angkat dan sajikan."
         ],
         "kategori" : [
             "sayur",
@@ -58,16 +58,16 @@
             "pedas",
             "panas",
             "manis"
-        ],
+        ]
     },
     {
-        "nama": "Ayam Goreng Laos",
+        "nama_makanan": "Ayam Goreng Laos",
         "deskripsi": "Ciri-ciri ayam goreng laos enak adalah cita rasa bumbu yang meresap dengan bumbu ungkep yang garing berwarna cokelat keemasan. Lewat artikel ini, Masak Apa Hari Ini ingin berbagi resep ayam goreng laos atau yang lebih populer dengan sebutan ayam goreng lengkuas yang seenak rumah makan. Selain lengkuas, bumbu rimpang ini juga dikenal dengan sebutan laos di pulau Jawa. Teksturnya berserat dengan rasa yang khas sehingga cocok disantap setelah digoreng. Bumbu ini enak digoreng dan disajikan seperti halnya serundeng kelapa.",
-        "path-gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg",
-        "click-count": 0,
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg",
+        "click_count": 0,
         "resep" : [
             "1 ekor ayam, potong 8 bagian, buang kulitnya",
-            "100 g lengkuas",
+            "100g lengkuas",
             "2 batang serai, memarkan",
             "2 lembar daun salam",
             "1 sdm air jeruk nipis",
@@ -75,40 +75,40 @@
             "Minyak, untuk menggorang ayam dan menumis",
             "8 butir bawang merah",
             "5 siung bawang putih",
-            "4 cm kunyit",
-            "2 cm jahe",
+            "4cm kunyit",
+            "2cm jahe",
             "4 butir kemiri sangrai",
-            "1 sdm ketumbar",
+            "1 sdm ketumbar"
         ],
         "prosedur" : [
             "Lumuri daging ayam dengan air jeruk nipis hingga merata. Diamkan selama 10 menit. Sisihkan.",
             "Panaskan 2 sdm minyak, tumis bumbu halus, lengkuas, serai, dan daun salam hingga harum.",
             "Masukkan daging ayam, aduk hingga kaku. Kecilkan api dan tutup wajan.",
             "Masak hingga setengah matang, tambahkan Royco Kaldu Ayam, aduk. Tutup kembali wajan dan masak hingga matang. Angkat.",
-            "Panaskan minyak, goreng daging ayam beserta bumbu ungkepnya hingga matang dan kecokelatan. Angkat dan sajikan.",
+            "Panaskan minyak, goreng daging ayam beserta bumbu ungkepnya hingga matang dan kecokelatan. Angkat dan sajikan."
         ],
         "kategori" : [
             "goreng",
             "ayam",
             "asin",
-            "kering",
-        ],
+            "kering"
+        ]
     },
     {
-        "nama": "Ikan Patin Bumbu Kuning",
+        "nama_makanan": "Ikan Patin Bumbu Kuning",
         "deskripsi": "Bosan dengan menu yang itu-itu saja? Coba resep ikan patin bumbu kuning ini, yuk! Cocok banget dijadikan menu untuk memenuhi selera mereka yang tak suka dengan hidangan laut. Sebagai temannya, masakan ini cocok banget kamu sajikan barengan sayuran tumis dengan orek tempe, bakwan sayur, dan tentunya tambahan sambal.",
-        "path-gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-780x440.jpg",
-        "click-count": 0,
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-780x440.jpg",
+        "click_count": 0,
         "resep" : [
-            "700 g ikan patin, potong 4 bagian",
+            "700g ikan patin, potong 4 bagian",
             "2 sdm air jeruk nipis",
             "½ sdm garam",
             "4 lembar daun jeruk",
-            "3 cm lengkuas, memarkan",
+            "3cm lengkuas, memarkan",
             "1 lembar daun salam",
             "1 batang serai, memarkan",
-            "700 ml air",
-            "65 ml santan instan",
+            "700ml air",
+            "65ml santan instan",
             "10 buah cabai rawit merah utuh",
             "1 sdt Royco Kaldu Ayam",
             "2 buah tomat, potong 4 bagian",
@@ -117,31 +117,31 @@
             "10 butir bawang merah",
             "5 siung bawang putih",
             "3 buah cabai merah besar",
-            "4 cm kunyit",
+            "4cm kunyit",
             "1 sdm ketumbar",
-            "½ sdt merica putih",
+            "½ sdt merica putih"
         ],
         "prosedur" : [
             "Lumuri ikan patin dengan air asam dan garam sambil digosok hingga ke bagian rongga perut. Diamkan dalam kulkas selama 20-30 menit atau hingga meresap. Cuci bersih.",
             "Panaskan minyak, goreng ikan hingga permukaannya garing. Angkat dan tiriskan. Sisihkan.",
             "Panaskan 2 sdm minyak sisa menggoreng ikan, tumis bumbu halus bersama daun jeruk, lengkuas, daun salam, dan serai hingga harum.",
             "Tuang air dan santan, masak hingga mendidih. Masukkan ikan, cabai rawit, dan Royco Kaldu Ayam. Masak hingga bumbu meresap.",
-            "Tambahkan tomat dan daun kemangi, aduk hingga layu. Angkat dan sajikan.",
+            "Tambahkan tomat dan daun kemangi, aduk hingga layu. Angkat dan sajikan."
         ],
         "kategori" : [
             "ikan",
             "asin",
-            "kuah",
-        ],
+            "kuah"
+        ]
     },
     {
-        "nama": "Ayam Goreng Laos",
+        "nama_makanan": "Ayam Goreng Laos",
         "deskripsi": "Ciri-ciri ayam goreng laos enak adalah cita rasa bumbu yang meresap dengan bumbu ungkep yang garing berwarna cokelat keemasan. Lewat artikel ini, Masak Apa Hari Ini ingin berbagi resep ayam goreng laos atau yang lebih populer dengan sebutan ayam goreng lengkuas yang seenak rumah makan. Selain lengkuas, bumbu rimpang ini juga dikenal dengan sebutan laos di pulau Jawa. Teksturnya berserat dengan rasa yang khas sehingga cocok disantap setelah digoreng. Bumbu ini enak digoreng dan disajikan seperti halnya serundeng kelapa.",
-        "path-gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg",
-        "click-count": 0,
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg",
+        "click_count": 0,
         "resep" : [
             "1 ekor ayam, potong 8 bagian, buang kulitnya",
-            "100 g lengkuas",
+            "100g lengkuas",
             "2 batang serai, memarkan",
             "2 lembar daun salam",
             "1 sdm air jeruk nipis",
@@ -149,30 +149,31 @@
             "Minyak, untuk menggorang ayam dan menumis",
             "8 butir bawang merah",
             "5 siung bawang putih",
-            "4 cm kunyit",
-            "2 cm jahe",
+            "4cm kunyit",
+            "2cm jahe",
             "4 butir kemiri sangrai",
-            "1 sdm ketumbar",
+            "1 sdm ketumbar"
         ],
         "prosedur" : [
             "Lumuri daging ayam dengan air jeruk nipis hingga merata. Diamkan selama 10 menit. Sisihkan.",
             "Panaskan 2 sdm minyak, tumis bumbu halus, lengkuas, serai, dan daun salam hingga harum.",
             "Masukkan daging ayam, aduk hingga kaku. Kecilkan api dan tutup wajan.",
             "Masak hingga setengah matang, tambahkan Royco Kaldu Ayam, aduk. Tutup kembali wajan dan masak hingga matang. Angkat.",
-            "Panaskan minyak, goreng daging ayam beserta bumbu ungkepnya hingga matang dan kecokelatan. Angkat dan sajikan.",
+            "Panaskan minyak, goreng daging ayam beserta bumbu ungkepnya hingga matang dan kecokelatan. Angkat dan sajikan."
         ],
         "kategori" : [
             "goreng",
             "ayam",
             "asin",
             "kering",
-        ],
+            "lauk"
+        ]
     },
     {
-        "nama": "Sayur Lodeh Simple",
+        "nama_makanan": "Sayur Lodeh Simple",
         "deskripsi" : "Selain resep sayur sop, sayur asem, dan sayur capcay, resep sayur lodeh merupakan salah satu masakan yang terdiri dari beberapa jenis sayuran yang punya banyak variasi. Dapat diolah dari berbagai sumber protein misalnya daging ayam, daging sapi, atau ikan asap. Kali ini, Masak Apa Hari Ini ingin mengajak kamu untuk mencoba resep sayur lodeh simple kuah santan yang mudah dibuat dengan bahan yang ekonomis. Tak harus sesuai resep, kamu bisa menjadikan masakan sayur lodeh sebagai ide menu untuk menghabiskan sisa sayuran di kulkas. Misalnya wortel, buncis, terung hijau, atau jagung manis.",
-        "path-gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg",
-        "click-count": 0,
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg",
+        "click_count": 0,
         "resep" : [
             "300g ceker ayam atau kaki ayam",
             "200g labu siam, kupas, potong kotak 2,5 cm",
@@ -189,20 +190,20 @@
             "6 butir bawang merah",
             "4 siung bawang putih",
             "4 butir kemiri sangrai",
-            "1 sdt garam",
+            "1 sdt garam"
         ],
         "prosedur" : [
             "Rebus ceker hingga mendidih, kecilkan api.",
             "Masukkan daun salam, lengkuas, dan bumbu halus, dan gula merah, aduk. Masukkan labu siam, aduk rata. Masak hingga setengah matang.",
             "Tambahkan terung dan santan, aduk rata.",
             "Masukkan kacang panjang, cabai hijau, dan Royco Kaldu Ayam, masak sambil diaduk supaya santan tidak pecah.",
-            "Saat semua bahan sayuran sudah matang, masukkan daun melinjo, aduk hingga layu. Angkat dan sajikan.",
+            "Saat semua bahan sayuran sudah matang, masukkan daun melinjo, aduk hingga layu. Angkat dan sajikan."
         ],
         "kategori" : [
-            "ikan",
+            "sayur",
             "asin",
-            "kuah",
-        ],
-    },
+            "kuah"
+        ]
+    }
     
 ]
