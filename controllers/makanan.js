@@ -3,6 +3,8 @@ const User = require('../models/user');
 
 module.exports.renderDashboard = async (req, res) => {
     allMakanan = await Makanan.find().sort({ click_count: -1 });
+    const user = await User.findById(req.user._id);
+    console.log(user);
     res.render('dashboard/dashboard', { dataMakanan: allMakanan });
 }   
 module.exports.renderDeskripsi = async (req, res) => {

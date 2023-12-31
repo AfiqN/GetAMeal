@@ -11,7 +11,6 @@ module.exports.signUpUser = async (req, res, next) => {
         await User.insertMany( user );
         res.redirect('/sign-in')
     } catch (err) {
-    
         req.flash('error', err.message);
         res.redirect('/sign-up');
     }
@@ -19,4 +18,10 @@ module.exports.signUpUser = async (req, res, next) => {
 
 module.exports.renderSignInView = (req, res) => {
     res.render('user/sign-in');
+}
+
+module.exports.signInUser = (req, res) => {
+    req.flash('success', 'Successfully Login');
+    const redirectUrl = res.locals.returnTo || '/';
+    res.redirect(redirectUrl);
 }

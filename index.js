@@ -3,6 +3,8 @@ const path = require('path');
 const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 const session = require('express-session');
+const passport = require('passport');
+const LocalStrategy = require('passport-local');
 
 const routeUser = require('./routes/user.js');
 const routeBookmark = require('./routes/bookmark.js');
@@ -61,6 +63,7 @@ const sessionConfig = {
 
 app.use(session(sessionConfig));
 app.use(flash());
+passport.use(new LocalStrategy(User.authenticate()));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
