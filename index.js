@@ -16,8 +16,9 @@ const mongoose = require('mongoose');
 
 const User = require('./models/user.js')
 const Makanan = require('./models/makanan.js')
-const Bookmark = require('./models/bookmark.js')
-
+const Bookmark = require('./models/bookmark.js');
+const catchAsync = require('./utils/catchAsync.js');
+const { renderRekomendasiMakanan } = require('./controllers/makanan.js')
 
 const dbUrl = process.env.DB_URL || `mongodb://127.0.0.1:27017/getameal`;
 mongoose.connect(dbUrl);
@@ -65,6 +66,9 @@ app.use(session(sessionConfig));
 app.use(flash());
 passport.use(new LocalStrategy(User.authenticate()));
 
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -79,6 +83,15 @@ app.use((req, res, next) =>{
 app.use('/', routeUser);
 app.use('/makanan', routeMakanan);
 app.use('/bookmark', routeBookmark);
+
+// app.get('/', (req, res) => {
+//     try{
+//         res.render('/dashboard/dashboard');
+//     } catch (err) {
+//         res.status(500).send('Internal Server Error');
+//     }
+// }));
+
 
 const port = process.env.PORT || 3000;
 

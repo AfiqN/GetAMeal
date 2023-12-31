@@ -1,5 +1,7 @@
+const user = require('../../controllers/user')
+
 function redirectSignIn() {
-    window.location.href = "/sign-in";
+    window.location.href = "/logout";
 }
 
 function redirectBookmark() {

@@ -7,9 +7,11 @@ module.exports.renderSignUpView = (req, res) => {
 module.exports.signUpUser = async (req, res, next) => {
     try {
         const { username, password } = req.body;
-        const user = new User({username, password});
-        await User.insertMany( user );
-        res.redirect('/sign-in')
+        const user = new User({username});
+        const registered = await User.register(user, password);
+        req.flash('success', 'Berhasil Sign-Up');
+        res.redirect('/sign-in');
+       
     } catch (err) {
         req.flash('error', err.message);
         res.redirect('/sign-up');
@@ -21,7 +23,20 @@ module.exports.renderSignInView = (req, res) => {
 }
 
 module.exports.signInUser = (req, res) => {
-    req.flash('success', 'Successfully Login');
-    const redirectUrl = res.locals.returnTo || '/';
+    console.log('tes flash');
+    console.log(req.user);
+    req.flash('success', 'Berhasil Login');
+    const redirectUrl = res.locals.returnTo || '/makanan/rekomendasi';
     res.redirect(redirectUrl);
+}
+
+module.exports.logoutUser = (req, res) => {
+    console.log('es')
+    req.logout(function (err) {
+        if (err) {
+            return next(err);
+        }
+        req.flash('success', 'Berhasil Logout');
+        res.redirect('/sign-in');
+    })
 }

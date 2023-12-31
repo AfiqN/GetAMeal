@@ -6,7 +6,8 @@ const passport = require('passport');
 const { storeReturnTo } = require('../middleware.js');
 
 router.route('/')
-    .get(user.renderSignInView);
+    .get(user.renderSignInView)
+    .post(storeReturnTo, passport.authenticate('local', {failureFlash: true, failureRedirect: '/sign-in'}), user.signInUser);
 
 router.route('/sign-up')
     .get(user.renderSignUpView)
@@ -15,5 +16,7 @@ router.route('/sign-up')
 router.route('/sign-in')
     .get(user.renderSignInView)
     .post(storeReturnTo, passport.authenticate('local', {failureFlash: true, failureRedirect: '/sign-in'}), user.signInUser);
+
+router.get('/logout', user.logoutUser);
 
 module.exports = router;
