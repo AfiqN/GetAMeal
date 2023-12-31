@@ -13,3 +13,7 @@ function redirectMakanan() {
 function redirectListMakanan() {
     window.location.href = "/makanan/list-makanan";
 }
+
+function redirectListMakanan() {
+    window.location.href = "/makanan/list-makanan";
+}

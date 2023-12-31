@@ -12,6 +12,8 @@ const mongoose = require('mongoose');
 
 const User = require('./models/user.js')
 const Makanan = require('./models/makanan.js')
+const Bookmark = require('./models/bookmark.js')
+
 
 const dbUrl = process.env.DB_URL || `mongodb://127.0.0.1:27017/getameal`;
 mongoose.connect(dbUrl);
@@ -27,6 +29,8 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.engine('ejs', ejsMate);
 
+
+app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
