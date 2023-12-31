@@ -37,7 +37,7 @@
                                         </button>
                                     </div>
                                     <div class="col-12 d-flex justify-content-center">
-                                        <img class="img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
+                                        <img class="img card-img-top" src=<%= data.path_gambar %> alt="">
                                     </div>
                                     <div class="col-12">
                                         <div class="row mt-5 d-flex justify-content-between">
@@ -57,13 +57,13 @@
                             <div class="right-desc col-lg-6">
                                 <div class="d-flex justify-content-center align-items-center">
                                     <div class="title-food d-flex justify-content-center align-items-center">
-                                        <h3 class="" style="font-weight: bold; margin: 5px 0;">PECEL MADIUN</h3>
+                                        <h3 class="" style="font-weight: bold; margin: 5px 0;"><%= data.nama_makanan %></h3>
                                     </div>
                                 </div>
 
                                 <div class="mx-4">
                                     <p style="font-weight: 25px; text-align: justify;">
-                                        Resep sayur lodeh simple dengan kuah santan yang gurih dan sedap. Sajikan bersama ayam goreng atau balado ikan dengan tambahan sambal goreng kentang. Mantap! Selain resep sayur sop, sayur asem, dan sayur capcay, resep sayur lodeh merupakan salah satu masakan yang terdiri dari beberapa jenis sayuran yang punya banyak variasi. Dapat diolah dari berbagai sumber protein misalnya daging ayam, daging sapi, atau ikan asap.
+                                        <%= data.deskripsi %>
                                     </p>
                                 </div>
 

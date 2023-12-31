@@ -139,7 +139,8 @@ body, html {
 }
 .card {
     border-radius: 25px;
-    margin: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     padding: 0;
     height: 263px;
 }

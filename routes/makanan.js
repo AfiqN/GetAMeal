@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router({mergeParams: true});
 const makanan = require('../controllers/makanan');
+const catchAsync = require('../utils/catchAsync')
 
 router.route('/rekomendasi')
-    .get(makanan.renderDashboard);
+    .get(catchAsync(makanan.renderDashboard));
 
 router.route('/cari')
     .get(makanan.renderCariMakanan);
@@ -18,6 +19,6 @@ router.route('/:id/prosedur')
     .get(makanan.renderProsedur);
 
 router.route('/:id') // :id
-    .get(makanan.renderDeskripsi);
+    .get(catchAsync(makanan.renderDeskripsi));
 
 module.exports = router;

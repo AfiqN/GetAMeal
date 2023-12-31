@@ -22,117 +22,60 @@
                         <h1 class="mt-4 px-2" style="font-weight: bold;">Make your own food, stay at <span style="color: #F8B023;">Home</span>!</h1>
                         <div class="separator my-4"></div>
                         <h2 class="px-3">Rekomendasi</h2>
-                        <div id="carouselExampleAutoplaying" class="food carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
+                        
+                        <div id="carouselExampleIndicators" class="food carousel slide">
+                            <!-- <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div> -->
                             <div class="carousel-inner">
+                            
                                 <div class="carousel-item active">
-                                    <div class="row">
-                                        <button type="button" onclick="redirectMakanan()"  class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Lodeh Simple Kuah Santan</h5>
-                                            </div>
-                                        </button>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Lodeh Simple Kuah Santan</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Lodeh Simple Kuah Santan</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Lodeh Simple Kuah Santan</h5>
-                                            </div>
-                                        </a>
+                                    <div class="row g-3">
+
+                                        <% for(let i=0; i<4; i++) { %>
+                                        <div class="bookmark-card col-3">
+                                            <a href="/makanan/<%= dataMakanan[i].nama_makanan %>" class="card" style="text-decoration: none;">
+                                                <img class="card-img card-img-top" src="<%= dataMakanan[i].path_gambar %>" alt="">
+                                                <div class="card-body">
+                                                    <h6 class="mt-3" style="font-weight: bold;"><%= dataMakanan[i].nama_makanan %></h6>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <% } %>
+
                                     </div>
                                 </div>
+
+                                
+                                <% for (let i=4; i<dataMakanan.length; i++) { %>
+                                <% if (i%4 == 0) { %>
                                 <div class="carousel-item">
-                                    <div class="row">
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Ikan Patin Bumbu Kuning Gurih dan Sedap</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Ikan Patin Bumbu Kuning Gurih dan Sedap</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Ikan Patin Bumbu Kuning Gurih dan Sedap</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Ikan-Patin-Bumbu-Kuning-Gurih-dan-Sedap-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Ikan Patin Bumbu Kuning Gurih dan Sedap</h5>
-                                            </div>
-                                        </a>
-                                        
+                                    <div class="row g-3">
+                                <% } %>
+                            
+                                        <div class="bookmark-card col-3">
+                                            <a href="/makanan/<%= dataMakanan[i].nama_makanan %>" class="card" style="text-decoration: none;">
+                                                <img class="card-img card-img-top" src="<%= dataMakanan[i].path_gambar %>" alt="">
+                                                <div class="card-body">
+                                                    <h6 class="mt-3" style="font-weight: bold;"><%= dataMakanan[i].nama_makanan %></h6>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                <% if (i%8 == 0 || dataMakanan[i]._id == dataMakanan[dataMakanan.length-1]._id) { %>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Kacang Merah Sunda</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Kacang Merah Sunda</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Kacang Merah Sunda</h5>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="col card" style="text-decoration: none;">
-                                            <img class="card-img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-500x300.jpg" alt="">
-                                            <div class="card-body">
-                                                <!-- <div class="drawer-bar"></div> -->
-                                                <h5 class="mt-3" style="font-weight: bold;">Resep Sayur Kacang Merah Sunda</h5>
-                                            </div>
-                                        </a>
-                                        
-                                    </div>
-                                </div>
+                                <% } %>
+                                <% } %>
+                               
                             </div>
-                            <button class="arrow-prev carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <button class="arrow-prev carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                 <span class="i-prev carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="arrow-next carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <button class="arrow-next carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                                 <span class="i-next carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -143,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
     </div>
