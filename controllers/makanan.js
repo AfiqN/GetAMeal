@@ -68,21 +68,24 @@ module.exports.renderCariMakanan = async (req, res) => {
 }
 module.exports.tambahKeBookmark = async (req, res) => {
     const { id_bookmark } = req.body;
-    // console.log(id_bookmark);
-    // console.log(typeof id_bookmark);
     
     if (typeof id_bookmark === "object"){ 
-        for (const bId of id_bookmark) {
-            const selectBm = await Bookmark.findById(bId);
-            // const selectM = await Makanan.find({nama_makanan: req.params.id});
-            // console.log(selectM);
-            // console.log(selectBm);
+        try {
+            for (const bId of id_bookmark) {
+                const selectBm = await Bookmark.findById(bId);
+                const selectM = await Makanan.findOne({nama_makanan: req.params.id});
+                selectBm.makanan.push(selectM._id);
+                await selectBm.save();
+                console.log("berhasil");
+            }
+        } catch (err) {
+            console.log(err);
+            req.flash('error', 'Makanan telah ada pada bookmark');
         }
     } else if (typeof id_bookmark === "string") {
         try {
             const selectBm = await Bookmark.findById(id_bookmark);
             const selectM = await Makanan.findOne({nama_makanan: req.params.id});
-            console.log(typeof selectM._id);
             selectBm.makanan.push(selectM._id);
             await selectBm.save();
             console.log("berhasil");
@@ -96,6 +99,4 @@ module.exports.tambahKeBookmark = async (req, res) => {
         res.redirect('/makanan/'+req.params.id);
     }
     res.redirect('/makanan/'+req.params.id);
-    console.log(req.body);
-    console.log("Done");
 }
