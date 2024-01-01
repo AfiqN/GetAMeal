@@ -26,19 +26,18 @@ module.exports.renderDeskripsi = async (req, res) => {
     res.render('dashboard/deskripsi', { data, user: req.user, bookmark: allUserBookmark });
 }                   
 module.exports.renderResep = async (req, res) => {
-    data = await Makanan.find({ id: req.params.id });
+    data = await Makanan.find({ nama_makanan: req.params.id });
     data = data[0];
 
     const allUserBookmark = [];
     for (const item of req.user.bookmark) {
         allUserBookmark.push(await Bookmark.findById(item));
     }
-
-    res.render('dashboard/deskripsi', { data });
+    
     res.render('dashboard/resep', { data, user: req.user, bookmark: allUserBookmark });
 }                  
 module.exports.renderProsedur = async (req, res) => {
-    data = await Makanan.find({ id: req.params.id });
+    data = await Makanan.find({ nama_makanan: req.params.id });
     data = data[0];
 
     const allUserBookmark = [];
@@ -46,7 +45,6 @@ module.exports.renderProsedur = async (req, res) => {
         allUserBookmark.push(await Bookmark.findById(item));
     }
 
-    res.render('dashboard/deskripsi', { data });
     res.render('dashboard/prosedur', { data, user: req.user, bookmark: allUserBookmark })
 }                  
 module.exports.renderListMakanan = async (req, res) => {
@@ -67,4 +65,37 @@ module.exports.renderCariMakanan = async (req, res) => {
     }
 
     res.render('dashboard/cari' , { user: req.user, bookmark: allUserBookmark });
+}
+module.exports.tambahKeBookmark = async (req, res) => {
+    const { id_bookmark } = req.body;
+    // console.log(id_bookmark);
+    // console.log(typeof id_bookmark);
+    
+    if (typeof id_bookmark === "object"){ 
+        for (const bId of id_bookmark) {
+            const selectBm = await Bookmark.findById(bId);
+            // const selectM = await Makanan.find({nama_makanan: req.params.id});
+            // console.log(selectM);
+            // console.log(selectBm);
+        }
+    } else if (typeof id_bookmark === "string") {
+        try {
+            const selectBm = await Bookmark.findById(id_bookmark);
+            const selectM = await Makanan.findOne({nama_makanan: req.params.id});
+            console.log(typeof selectM._id);
+            selectBm.makanan.push(selectM._id);
+            await selectBm.save();
+            console.log("berhasil");
+        } catch (err) {
+            console.log(err);
+            req.flash('error', 'Makanan telah ada pada bookmark');
+        }
+
+    } else {
+        req.flash('success', 'Anda tidak memilih apapun');
+        res.redirect('/makanan/'+req.params.id);
+    }
+    res.redirect('/makanan/'+req.params.id);
+    console.log(req.body);
+    console.log("Done");
 }

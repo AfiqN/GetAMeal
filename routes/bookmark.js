@@ -10,6 +10,9 @@ router.route('/')
 router.route('/tambah')
     .post(isLoggedIn, bookmark.addBookmark);
 
+router.route('/:id/tambahMakanan')
+    .post(isLoggedIn, bookmark.addBookmark);
+
 router.route('/:id')
     .get(makanan.renderListMakanan);
 

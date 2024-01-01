@@ -37,18 +37,18 @@
                                         </button>
                                     </div>
                                     <div class="col-12 d-flex justify-content-center">
-                                        <img class="img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
+                                        <img class="img card-img-top" src="<%= data.path_gambar %>" alt="">
                                     </div>
                                     <div class="col-12">
                                         <div class="row mt-5 d-flex justify-content-between">
                                             <div class="col-4">
-                                                <button onclick="redirectToInfo()" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Kembali</button>
+                                                <button onclick="window.location.href = '/makanan/<%= data.nama_makanan %>'" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Kembali</button>
                                             </div>
                                             <div class="col-4">
                                                 <!-- <button type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Prosedur</button> -->
                                             </div>
                                             <div class="col-4">
-                                                <button onclick="redirectResep()" type="button" class="btn btn-primary" style="font-weight: bold; width: 100%; border-radius: 10px;">Resep</button>
+                                                <button onclick="window.location.href = '/makanan/<%= data.nama_makanan %>/resep'" type="button" class="btn btn-primary" style="font-weight: bold; width: 100%; border-radius: 10px;">Resep</button>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@
                                 
                                 <div class="d-flex justify-content-center align-items-center">
                                     <div class="title-food d-flex justify-content-center align-items-center">
-                                        <h3 class="" style="font-weight: bold; margin: 5px 0;">PECEL MADIUN</h3>
+                                        <h3 class="" style="font-weight: bold; margin: 5px 0;"><%= data.nama_makanan %></h3>
                                     </div>
                                 </div>
 
@@ -66,15 +66,16 @@
                                     <div class="col"6>
                                         <h5>Cara Membuat</h5>
                                         <ol style="font-size: 14px;">
-                                            <li>Rebus ceker hingga mendidih, kecilkan api.</li>
-                                            <li>Masukkan daun salam, lengkuas, dan bumbu halus, dan gula merah, aduk. Masukkan labu siam, aduk rata. Masak hingga setengah matang.</li>
-                                            <li>Tambahkan terung dan santan, aduk rata.</li>
+                                            <% for (let i=0; i<Math.ceil(data.prosedur.length /2); i++) { %>
+                                            <li><%= data.prosedur[i] %></li>
+                                            <% } %>
                                         </ol>
                                     </div>
                                     <div class="col" style="border-left: 1px solid black;">
                                         <ol style="font-size: 14px;" start="4"> 
-                                            <li>Masukkan kacang panjang, cabai hijau, dan Royco Kaldu Ayam, masak sambil diaduk supaya santan tidak pecah.</li>
-                                            <li>Saat semua bahan sayuran sudah matang, masukkan daun melinjo, aduk hingga layu. Angkat dan sajikan.</li>
+                                            <% for (let i=Math.ceil(data.prosedur.length /2); i<data.prosedur.length; i++) { %>
+                                                <li><%= data.prosedur[i] %></li>
+                                            <% } %>
                                         </ol>
                                     </div>
                                 </div>

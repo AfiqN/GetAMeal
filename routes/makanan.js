@@ -18,6 +18,9 @@ router.route('/:id/resep')
 router.route('/:id/prosedur')
     .get(makanan.renderProsedur);
 
+router.route('/:id/tambahKeBookmark')
+    .post(makanan.tambahKeBookmark);
+
 router.route('/:id') // :id
     .get(catchAsync(makanan.renderDeskripsi));
 

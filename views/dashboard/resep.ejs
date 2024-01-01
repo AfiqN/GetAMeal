@@ -37,18 +37,18 @@
                                         </button>
                                     </div>
                                     <div class="col-12 d-flex justify-content-center">
-                                        <img class="img card-img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg" alt="">
+                                        <img class="img card-img-top" src="<%= data.path_gambar %>" alt="">
                                     </div>
                                     <div class="col-12">
                                         <div class="row mt-5 d-flex justify-content-between">
                                             <div class="col-4">
-                                                <button onclick="redirectToInfo()" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Kembali</button>
+                                                <button onclick="window.location.href = '/makanan/<%= data.nama_makanan %>'" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Kembali</button>
                                             </div>
                                             <div class="col-4">
                                                 <!-- <button onclick="redirectResep()" type="button" class="btn btn-primary" style="font-weight: bold; width: 100%; border-radius: 10px;">Resep</button> -->
                                             </div>
                                             <div class="col-4">
-                                                <button onclick="redirectProsedur()" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Prosedur</button>
+                                                <button onclick="window.location.href = '/makanan/<%= data.nama_makanan %>/prosedur'" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Prosedur</button>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@
                                 
                                 <div class="d-flex justify-content-center align-items-center">
                                     <div class="title-food d-flex justify-content-center align-items-center">
-                                        <h3 class="" style="font-weight: bold; margin: 5px 0;">PECEL MADIUN</h3>
+                                        <h3 class="" style="font-weight: bold; margin: 5px 0;"><%= data.nama_makanan %></h3>
                                     </div>
                                 </div>
 
@@ -66,29 +66,17 @@
                                     <div class="col"6>
                                         <h5>Bahan</h5>
                                         <ul style="font-size: 14px;">
-                                            <li>300g ceker ayam atau kaki ayam</li>
-                                            <li>200g labu siam, kupas, potong kotak 2,5 cm</li>
-                                            <li>1 buah terung ungu, belah 2 memanjang, potong-potong</li>
-                                            <li>100g kacang panjang, potong 3 cm</li>
-                                            <li>50g daun melinjo</li>
-                                            <li>1l air, untuk merebus</li>
-                                            <li>65ml santan instan</li>
+                                            <% for (let i=0; i<Math.ceil(data.resep.length /2); i++) { %>
+                                                <li><%= data.resep[i] %></li>
+                                            <% } %>
                                         </ul>
                                     </div>
                                     <div class="col" style="border-left: 1px solid black;">
                                         <ul style="font-size: 14px;">
-                                            <li>3 buah cabai hijau, potong serong</li>
-                                            <li>3cm lengkuas, memarkan</li>
-                                            <li>2 lembar daun salam</li>
-                                            <li>1 sdt Royco Kaldu Ayam</li>
-                                            <li>1 sdm gula merah</li>
-                                        </ul>
-                                        <h5>Bumbu halus:</h5>
-                                        <ul style="font-size: 14px;">
-                                            <li>6 butir barang merah</li>
-                                            <li>4 siung bawang putih</li>
-                                            <li>4 butir kemiri</li>
-                                            <li>1 sdt garam</li>
+                                            <% for (let i=Math.ceil(data.resep.length /2); i<data.resep.length; i++) { %>
+                                                <li><%= data.resep[i] %></li>
+                                            <% } %>
+
                                         </ul>
                                     </div>
                                 </div>
