@@ -2,7 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const BookmarkSchema = new Schema({
-    judul: String,
+    judul_bookmark: {
+        type: String,
+        required: true,
+    },
     makanan: [
         {
             type: Schema.Types.ObjectId,

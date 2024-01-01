@@ -27,7 +27,7 @@ const db = mongoose.connection;
 db.on("error", console.error.bind(console, "database connection error"))
 db.once("open", ()=>{
     console.log("Database connected");
-})
+});
 
 const app = express();
 app.set('view engine', 'ejs');
@@ -64,6 +64,9 @@ const sessionConfig = {
 
 app.use(session(sessionConfig));
 app.use(flash());
+
+app.use(passport.initialize());
+app.use(passport.session());
 passport.use(new LocalStrategy(User.authenticate()));
 
 passport.serializeUser(User.serializeUser());

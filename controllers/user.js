@@ -24,19 +24,16 @@ module.exports.renderSignInView = (req, res) => {
 
 module.exports.signInUser = (req, res) => {
     console.log('tes flash');
-    console.log(req.user);
     req.flash('success', 'Berhasil Login');
     const redirectUrl = res.locals.returnTo || '/makanan/rekomendasi';
     res.redirect(redirectUrl);
 }
 
 module.exports.logoutUser = (req, res) => {
-    console.log('es')
     req.logout(function (err) {
         if (err) {
             return next(err);
         }
-        req.flash('success', 'Berhasil Logout');
         res.redirect('/sign-in');
-    })
+    });
 }
