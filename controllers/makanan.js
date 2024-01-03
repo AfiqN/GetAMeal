@@ -58,13 +58,39 @@ module.exports.renderListMakanan = async (req, res) => {
     res.render('dashboard/show-makanan', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark });
 }   
 module.exports.renderCariMakanan = async (req, res) => { 
+    const { cari, kategori } = req.query;
+    const arrKategori = [];
+    let cariMakanan = [];
 
+    
+
+    if (cari !== "") {
+        cariMakanan = await Makanan.find({ nama_makanan : { $regex: `${cari}`, $options: 'i' }});
+    } 
+    
+    if (typeof kategori !== "undefined") {
+        if (typeof kategori === "string") {
+            arrKategori.push(kategori);
+        } else {
+            arrKategori.push(...kategori);
+        }
+        const allMakanan = await Makanan.find({});
+        // console.log(arrKategori);
+        for (makanan of allMakanan) {
+            let isFound = arrKategori.every(value => makanan.kategori.includes(value));
+            // console.log(isFound);
+            if (isFound) {
+                cariMakanan.push(makanan);
+            }
+        }
+    }
+    
+    // console.log(cariMakanan);
     const allUserBookmark = [];
     for (const item of req.user.bookmark) {
         allUserBookmark.push(await Bookmark.findById(item));
     }
-
-    res.render('dashboard/cari' , { user: req.user, bookmark: allUserBookmark });
+    res.render('dashboard/show-makanan', { dataMakanan: cariMakanan, user: req.user, bookmark: allUserBookmark });
 }
 module.exports.tambahKeBookmark = async (req, res) => {
     const { id_bookmark } = req.body;
