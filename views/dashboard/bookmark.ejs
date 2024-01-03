@@ -27,158 +27,26 @@
 
                     <div class="grey-area p-4">
                         <div class="row g-3">
+                            <% for (let i=0; i<bookmark.length; i++) { %>
+                               
                             <div class="bookmark-card col-3 border border-primary">
                                 <div class="b-top row m-2">
+                                    <% for (let j=0; j<4; j++) { %>
                                     <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
+                                        <% if (j < pathGambar[i].length) { %>
+                                        <img class="img-top" src="<%= pathGambar[i][j] %>">
+                                        <% } else { %>
+                                        <img class="img-top" src="/src/images/blank-gray.png" style="border: 2px dashed #c2c0c0;">
+                                        <% } %>
                                     </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
+                                    <% } %>
                                 </div>
-                                <button onclick="redirectMakanan()" class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
+                                <a href="/bookmark/<%= bookmark[i].judul_bookmark %>" class="btn-bookmark btn btn-primary">
+                                    <span style="font-weight: bold;"><%= bookmark[i].judul_bookmark %></span>
+                                </a>
                             </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Sayur-Lodeh-Simple-Kuah-Santan-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/shutterstock_2258917327-780x440.jpg">
-                                    </div>
-                                    <div class="col-6 p-1">
-                                        <img class="img-top" src="https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Acar-Timun-Wortel-780x440.jpg">
-                                    </div>
-                                </div>
-                                <button class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;">Fav Semua Orang</span>
-                                </button>
-                            </div>
+                            <% } %>
+                            
                         </div>
                         
                         <div class="row mt-5 d-flex justify-content-between">

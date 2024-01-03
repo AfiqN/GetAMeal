@@ -5,16 +5,21 @@ const mongoose = require('mongoose');
 const { ObjectId } = mongoose.Types;
 
 module.exports.renderBookmark = async (req, res) => {
-    const user = await User.findById(req.user._id).populate({
-        path : 'bookmark',
-        populate: {
-            path: 'makanan',
-            model: 'Makanan',
-        }
-    });
-    const bookmark = user.bookmark;
+    const allUserBookmark = [];
+    const imgBookmarkFood = [];
 
-    res.render('dashboard/bookmark', { bookmark , user: req.user });
+    for (let i=0; i<req.user.bookmark.length; i++) {
+        bm = await Bookmark.findById(req.user.bookmark[i]);
+        allUserBookmark.push(await Bookmark.findById(bm));
+        let gambar = []
+        for (const makanan of bm.makanan) {
+            m = await Makanan.findById(makanan);
+            gambar.push(m.path_gambar);
+        }
+        imgBookmarkFood.push(gambar);
+    }
+
+    res.render('dashboard/bookmark', { bookmark: allUserBookmark, pathGambar: imgBookmarkFood });
 }
 
 module.exports.addBookmark = async (req, res) => {
@@ -50,5 +55,5 @@ module.exports.renderDetailBookmark = async (req, res) => {
         allMakanan.push(await Makanan.findById(makanan));
     }
 
-    res.render('dashboard/show-makanan', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark });
+    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark });
 }
