@@ -19,13 +19,22 @@ module.exports.renderBookmark = async (req, res) => {
 
 module.exports.addBookmark = async (req, res) => {
     const { judul } = req.body;
-    const newBookmark = new Bookmark({ judul_bookmark : judul });
-    await newBookmark.save();
+    
+    const check = await Bookmark.findOne({ judul_bookmark : judul });
+    
+    if (check == null) {
+        const newBookmark = new Bookmark({ judul_bookmark : judul });
+        await newBookmark.save();
+    
+        const user = await User.findById(req.user._id);
+        user.bookmark.push(newBookmark);
+        await user.save();
+    
+        req.flash('success', 'Bookmark berhasil ditambahkan!');
+        res.redirect('/makanan/rekomendasi');
+    } else {
+        req.flash('error', 'Bookmark dengan nama '+ judul +' telah ada!');
+        res.redirect('/makanan/rekomendasi');
+    }
 
-    const user = await User.findById(req.user._id);
-    user.bookmark.push(newBookmark);
-    await user.save();
-
-    req.flash('success', 'Bookmark berhasil ditambahkan!');
-    res.redirect('/makanan/rekomendasi');
 }
