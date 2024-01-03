@@ -26,30 +26,32 @@
                     </div>
 
                     <div class="grey-area p-4">
-                        <div class="row g-3">
-                            <% for (let i=0; i<bookmark.length; i++) { %>
-                               
-                            <div class="bookmark-card col-3 border border-primary">
-                                <div class="b-top row m-2">
-                                    <% for (let j=0; j<4; j++) { %>
-                                    <div class="col-6 p-1">
-                                        <% if (j < pathGambar[i].length) { %>
-                                        <img class="img-top" src="<%= pathGambar[i][j] %>">
-                                        <% } else { %>
-                                        <img class="img-top" src="/src/images/blank-gray.png" style="border: 2px dashed #c2c0c0;">
+                        <div class="overflow-y-auto" style="height: 88%; border-bottom: 2px solid #a9a9a9;">
+                            <div class="row g-3 isi mx-3">
+                                <% for (let i=0; i<bookmark.length; i++) { %>
+                                
+                                <div class="bookmark-card col-3 border border-primary">
+                                    <div class="b-top row m-2">
+                                        <% for (let j=0; j<4; j++) { %>
+                                        <div class="col-6 p-1">
+                                            <% if (j < pathGambar[i].length) { %>
+                                            <img class="img-top" src="<%= pathGambar[i][j] %>">
+                                            <% } else { %>
+                                            <img class="img-top" src="/src/images/blank-gray.png" style="border: 2px dashed #c2c0c0;">
+                                            <% } %>
+                                        </div>
                                         <% } %>
                                     </div>
-                                    <% } %>
+                                    <a href="/bookmark/<%= bookmark[i].judul_bookmark %>" class="btn-bookmark btn btn-primary">
+                                        <span style="font-weight: bold;"><%= bookmark[i].judul_bookmark %></span>
+                                    </a>
                                 </div>
-                                <a href="/bookmark/<%= bookmark[i].judul_bookmark %>" class="btn-bookmark btn btn-primary">
-                                    <span style="font-weight: bold;"><%= bookmark[i].judul_bookmark %></span>
-                                </a>
+                                <% } %>
+                                
                             </div>
-                            <% } %>
-                            
-                        </div>
+                        </div>      
                         
-                        <div class="row mt-5 d-flex justify-content-between">
+                        <div class="row mt-3 d-flex justify-content-between mx-2">
                             <div class="col-3">
                                 <button onclick="backButton()" type="button" class="btn btn-primary" style="font-weight: bold;  width: 100%; border-radius: 10px;">Kembali</button>
                             </div>

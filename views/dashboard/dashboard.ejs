@@ -24,14 +24,9 @@
                         <h2 class="px-3">Rekomendasi</h2>
                         
                         <div id="carouselExampleIndicators" class="food carousel slide">
-                            <!-- <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div> -->
                             <div class="carousel-inner">
                             
-                                <div class="carousel-item active">
+                                <div class="carousel-item active innercar">
                                     <div class="row g-3">
 
                                         <% for(let i=0; i<4; i++) { %>
@@ -64,24 +59,26 @@
                                             </a>
                                         </div>
                                 
-                                <% if (i%8 == 0 || dataMakanan[i]._id == dataMakanan[dataMakanan.length-1]._id) { %>
+                                <% if ((i+1)%4 == 0 || dataMakanan[i]._id == dataMakanan[dataMakanan.length-1]._id) { %>
                                     </div>
                                 </div>
                                 <% } %>
                                 <% } %>
                                
                             </div>
-                            <button class="arrow-prev carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="i-prev carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="arrow-next carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="i-next carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                            <a href="/makanan/list-makanan" class="btn btn-primary justify-content-end mt-4" style="border-radius: 16px;">
-                                <span style="font-weight: bold;">Semua Makanan</span>
-                            </a>
+                            <div class="navigation-btn">
+                                <button class="arrow-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <img src="/src/icon/arrow-left.svg" class="" aria-hidden="true">
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <a href="/makanan/list-makanan" class="btn btn-primary" style="border-radius: 16px; width: 20%;">
+                                    <span style="font-weight: bold;">Semua Makanan</span>
+                                </a>
+                                <button class="arrow-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <img src="/src/icon/arrow-right.svg" class="" aria-hidden="true">
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

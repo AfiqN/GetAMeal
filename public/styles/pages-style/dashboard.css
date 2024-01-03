@@ -122,12 +122,28 @@ body, html {
     border-radius: 10px;
     height: 15px;
 }
+
+
 .food {
     padding: 0 15px;
     height: 70%;
+    display: flex;
+    flex-direction: column;
 }
-.arrow-icon {
-    color: black;
+.navigation-btn {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: fit-content;
+}
+.arrow-next, .arrow-prev {
+    background-color: #D6D6D6;
+    border: 2px solid #EE9C2D;
+    background-color: #EE9C2D;
+    border-radius: 16px;
+    height: 100%;
+    width: 10%;
 }
 .carousel-control-next {
     right: -50px;

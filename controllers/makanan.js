@@ -96,7 +96,6 @@ module.exports.tambahKeBookmark = async (req, res) => {
                 const selectM = await Makanan.findOne({nama_makanan: req.params.id});
                 selectBm.makanan.push(selectM._id);
                 await selectBm.save();
-                console.log("berhasil");
             } catch (err) {
                 console.log(err);
                 req.flash('error', 'Makanan telah ada pada bookmark');

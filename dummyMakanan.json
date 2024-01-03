@@ -2,7 +2,7 @@
     {
         "nama_makanan": "Mie Goreng Nyemek",
         "deskripsi": "Penyuka mie nyemek atau mie goreng wajib banget coba resep ini. Hidangan mie yang dipopulerkan dari Yogyakarta ini punya banyak penggemar karena tekstur kuahnya yang kental dan kaya rasa. Masakan ini juga memuaskan pencinta mie rebus yang ingin menikmati cita rasa mie goreng namun tetap bisa menikmati kuahnya.Mie goreng nyemek ini bukan cuma enak disantap sebagai menu makan malam, tetapi juga makan siang atau sarapan. Selain mie telur kering, kamu juga bisa menggunakan jenis mie lain seperti mie telur segar, mie kuning, atau kwetiau.",
-        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/01/bacem-tahu-tempe-780x440.jpg",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Mie-Goreng-Nyemek-Sederhana-780x440.jpg",
         "click_count": 0,
         "resep" : [
             "140g mie telur kering, rebus setengah matang, tiriskan",
@@ -58,40 +58,6 @@
             "pedas",
             "panas",
             "manis"
-        ]
-    },
-    {
-        "nama_makanan": "Ayam Goreng Laos",
-        "deskripsi": "Ciri-ciri ayam goreng laos enak adalah cita rasa bumbu yang meresap dengan bumbu ungkep yang garing berwarna cokelat keemasan. Lewat artikel ini, Masak Apa Hari Ini ingin berbagi resep ayam goreng laos atau yang lebih populer dengan sebutan ayam goreng lengkuas yang seenak rumah makan. Selain lengkuas, bumbu rimpang ini juga dikenal dengan sebutan laos di pulau Jawa. Teksturnya berserat dengan rasa yang khas sehingga cocok disantap setelah digoreng. Bumbu ini enak digoreng dan disajikan seperti halnya serundeng kelapa.",
-        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap-780x440.jpg",
-        "click_count": 0,
-        "resep" : [
-            "1 ekor ayam, potong 8 bagian, buang kulitnya",
-            "100g lengkuas",
-            "2 batang serai, memarkan",
-            "2 lembar daun salam",
-            "1 sdm air jeruk nipis",
-            "1 sdm Royco Kaldu Ayam",
-            "Minyak, untuk menggorang ayam dan menumis",
-            "8 butir bawang merah",
-            "5 siung bawang putih",
-            "4cm kunyit",
-            "2cm jahe",
-            "4 butir kemiri sangrai",
-            "1 sdm ketumbar"
-        ],
-        "prosedur" : [
-            "Lumuri daging ayam dengan air jeruk nipis hingga merata. Diamkan selama 10 menit. Sisihkan.",
-            "Panaskan 2 sdm minyak, tumis bumbu halus, lengkuas, serai, dan daun salam hingga harum.",
-            "Masukkan daging ayam, aduk hingga kaku. Kecilkan api dan tutup wajan.",
-            "Masak hingga setengah matang, tambahkan Royco Kaldu Ayam, aduk. Tutup kembali wajan dan masak hingga matang. Angkat.",
-            "Panaskan minyak, goreng daging ayam beserta bumbu ungkepnya hingga matang dan kecokelatan. Angkat dan sajikan."
-        ],
-        "kategori" : [
-            "goreng",
-            "ayam",
-            "asin",
-            "kering"
         ]
     },
     {
@@ -203,6 +169,1148 @@
             "sayur",
             "asin",
             "kuah"
+        ]
+    },
+    {
+        "nama_makanan": "Beef Steak Saus Lada Hitam",
+        "deskripsi" : "Inilah menu beef steak yang selalu jadi favorit di restoran. Daging has dalam dipanggang lalu dilumuri saus black pepper. Masak untuk weekend, yuk!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2022/05/beef-steak-sapi-lada-hitam-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "360 g daging sapi tenderloin (180g x 2)",
+            "½ sdt garam",
+            "¼ sdt merica hitam, gerus kasar",
+            "1 sdt thyme",
+            "3 sdm mentega",
+            "4 sdm bawang bombay, cincang",
+            "2 siung bawang putih, cincang",
+            "1 sdt tepung terigu",
+            "175 ml susu cair",
+            "2 sdt merica hitam, gerus kasar",
+            "1 sdt Royco Kaldu Sapi",
+            "100 g wortel, potong 5x0,5 cm, blansir",
+            "150 g buncis, potong 5 cm, blansir"
+        ],
+        "prosedur" : [
+            "Lumuri daging sapi dengan garam dan merica. Diamkan selama 5-10 menit.",
+            "Panaskan mentega dalam wajan antilengket, masak daging sapi bersama bawang putih dan thyme hingga tingkat kematangannya sesuai selera. Angkat. Keluarkan daging sapi beserta bawang putih dan rosemary dari wajan.",
+            "Saus lada hitam: Tumis bawang bombay dan bawang putih menggunakan sisa mentega memasak daging. Masukkan tepung terigu, aduk rata. Tuang susu cair dan Royco Kaldu Sapi. Masak hingga mengental.",
+            "Tambahkan merica hitam, masak hingga tercampur rata. Angkat.",
+            "Sajikan steak bersama saus lada hitam dan sayuran pelengkap."
+        ],
+        "kategori" : [
+            "pedas",
+            "daging",
+            "asin"
+        ]
+    },
+    {
+        "nama_makanan": "Udang Saus Padang",
+        "deskripsi" : "Resep udang saus padang restoran seafood yang simple dan gampang bikinnya. Cocok banget disajikan bareng ikan bakar, tumis sayuran, dan tahu isi.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2022/05/resep-udang-saus-padang-sambal-510x306.jpg",
+        "click_count": 0,
+        "resep" :[
+            "700 g udang berukuran besar",
+            "200 g jamur enoki, siangi",
+            "50 g bawang bombay, iris",
+            "1 batang daun bawang, potong serong",
+            "1 buah tomat, cincang",
+            "200 ml air",
+            "½ sdt garam",
+            "½ sdt merica putih bubuk",
+            "½ sdt gula pasir",
+            "2 sdm Royco Saus Tiram",
+            "5 sdm Jawara Saus Sambal Hot",
+            "minyak, untuk menumis dan menggoreng"
+        ],
+        "prosedur"  :[
+            "Belah tidak putus punggung udang menggunakan gunting dapur, keluarkan kotorannya. Cuci bersih. Sisihkan.",
+            "Panaskan minyak, goreng udang selama 15-30 detik. Angkat dan tiriskan. Sisihkan.",
+            "Panaskan 3 sdm minyak, tumis bumbu halus dan tomat hingga harum. Tuang air, masak hingga tomat hancur.",
+            "Masukkan garam, merica, gula pasir, Royco Saus Tiram, dan Jawara Saus Sambal Hot, aduk rata.",
+            "Masukkan udang, aduk sebentar. Tambahkan jamur dan daun bawang, aduk hingga semua bahan matang. Angkat. Sajikan."
+
+        ],
+        "kategori"  :[
+            "kuah",
+            "asin",
+            "seafood"
+        ]
+
+    },
+    {
+        "nama_makanan": "Ayam Bakar",
+        "deskripsi" : "Yuk, coba resep ayam bakar rumahan yang enak ini! Lengkapi dengan pendamping yang lezat di atas meja makan. Selamat mencoba!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2018/04/resep-ayam-bakar-enak-dan-gurih-1-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "1 ekor ayam pejantan, bagi 4",
+            "4 lembar daun salam",
+            "2 batang serai, ambil bagian putihnya, memarkan",
+            "3 sdm air asam jawa",
+            "500 ml santan",
+            "10 butir bawang merah",
+            "5 siung bawang putih",
+            "1 sdm ketumbar",
+            "5 butir kemiri",
+            "2 cm kunyit",
+            "3 cm lengkuas",
+            "3 sdm gula merah",
+            "½ sdt merica bubuk",
+            "1 sdt garam",
+            "1 sdm gula pasir",
+            "1 sdm Bango Kecap Manis"
+        ],
+        "prosedur" : [
+            "Bersihkan ayam, potong 4 bagian.",
+            "Larutkan asam jawa dalam air panas. Remas-remas dan ambil airnya.",
+            "Masukkan semua bahan bumbu halus beserta Bango Kecap Manis ke dalam blender atau food processor. Haluskan.",
+            "Panaskan wajan, tambahkan sedikit minyak untuk menumis dan tumis bumbu halus sampai wangi. Masukkan daun salam dan sereh, aduk-aduk rata sampai tercium aroma wangi.",
+            "Tambahkan air asam jawa, aduk merata hingga tercampur ke bumbu. Kemudian masukkan potongan ayam, aduk merata dengan bumbu.",
+            "Setelah ayam bercampur dengan bumbu hingga merata dan setelah dalam penggorengan beberapa saat, masukkan santan. Masak ayam berbumbu dengan santan sampai semua meresap ke dalam ayam dengan baik. Sesekali di aduk supaya santan tidak pecah.",
+            "Memasak santan dan ayam ini dalam api kecil sekitar dua jam dan hasilnya daging ayam pun jadi empuk.",
+            "Siapkan panggangan. Jangan lupa bolak balik ayam ketika dibakar. Tiap kali oleskan sisa bumbu ke bagian ayam yang mulai kering saat memanggangnya.",
+            "Setelah ayam kecokelatan, angkat dan siap untuk disajikan."
+        ],
+        "kategori" : [
+            "ayam",
+            "bakar",
+            "asin"
+        ]
+    },
+    {
+        "nama_makanan": "Nasi Goreng Rawon",
+        "deskripsi" : "Penasaran mengulik resep nasi goreng yang berbeda? Coba dulu nasi goreng rawon berikut! Praktis dengan rasa pedas nikmat bikin nagih!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/01/07-resep-nasi-goreng-rawon-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "3 porsi nasi",
+            "200 g daging sapi sukiyaki, iris",
+            "100 g pakchoy, potong 3 cm",
+            "1 bungkus Bango Bumbu Rawon Khas Malang",
+            "1 sdm Bango Kecap Manis",
+            "1 buah mentimun, potong serongv",
+            "1 buah tomat, iris",
+            "3 sdm minyak, untuk menumis",
+            "6 butir bawang merah, iris",
+            "5 buah cabai rawit merah, iris",
+            "5 lembar daun jeruk, buang tulang daunnya "
+        ],
+        "prosedur" : [
+            "Panaskan minyak, tumis semua bahan bumbu hingga harum. Tambahkan Bango Bumbu Kuliner Nusantara Rawon Khas Malang, aduk rata.",
+            "Masukkan daging, aduk sebentar. Masak hingga daging matang.",
+            "Masukkan nasi dan Bango Kecap Manis. Aduk hingga rata dan nasi berasap. Tambahkan pakchoy, daun bawang, aduk sebentar. Angkat.",
+            "Sajikan nasi goreng dengan telur asin, tomat, mentimun, dan kerupuk udang."
+        ],
+        "kategori" : [
+            "Nasi",
+            "goreng",
+            "pedas"
+        ]
+    },
+    {
+        "nama_makanan": "Ikan Bakar Makassar",
+        "deskripsi" : "Ikan Bakar Makassar adalah salah satu hidangan seafood Nusantara yang banyak digemari pencinta kuliner. Yuk, ikuti cara membuatnya!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2021/12/ikan-bakar-makassar-produk-510x306.jpg",
+        "click_count": 0,
+        "resep" : [
+            "1 ekor ikan laut (ikan lamuru, kudu-kudu, kakap, kuwe)",
+            "3 sdm Bango Kecap Manis",
+            "2 sdm margarin, untuk menumis Bumbu, aduk rata",
+            "10 butir bawang merah, goreng, tumbuk",
+            "2 sdm Bango Kecap Manis",
+            "1 sdt asam jawa, larutkan dengan 1 sdm air panas",
+            "1 sdt garam",
+            "½ sdt gula pasir",
+            "½ sdt merica putih bubuk Sambal",
+            "8 butir bawang merah, cincang",
+            "3 buah belimbing wuluh, iris",
+            "1 sdt air jeruk nipis",
+            "10 buah cabai rawit merah, cincang halus",
+            "1 buah tomat merah, cincang",
+            "2 sdt gula pasir",
+            "1 sdt garam"
+        ],
+        "prosedur" : [
+            "Panaskan margarin, tumis bumbu hingga harum. Tambahkan Bango Kecap Manis, aduk. Angkat.",
+            "Lumuri ikan dengan bumbu hingga merata. Diamkan dalam kulkas selama 45 menit. Sisihkan. ",
+            "Sambal belimbing: Aduk rata bawang merah, belimbing wuluh, dan cuka. Diamkan selama 15 menit. 4. Aduk rata bersama sisa bahan. Sisihkan. ​",
+            "Panaskan grill pan, panggang ikan di kedua sisinya hingga merata. Angkat. Sajikan bersama sambal. ​"
+        ],
+        "kategori" : [
+            "seafood",
+            "bakar",
+            "asin"
+        ]
+    },
+    {
+        "nama_makanan": "Ikan Tongkol Balado",
+        "deskripsi" : "Masak ikan tongkol balado untuk makan siang, yuk! Sebagai temannya, kamu bisa menyajikan tumis sayuran atau oseng tahu tempe. Makin enak!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Ikan-Tongkol-Balado-Enak-dan-Pedas-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500 g ikan tongkol segar, potong 4 bagian",
+            "1 buah tomat, potong-potong",
+            "1 batang daun bawang, potong 2 cm",
+            "1 sdm air jeruk nipis",
+            "½ sdm Royco Kaldu Ayam",
+            "5 lembar daun jeruk, buang tulang daunnya",
+            "Minyak, untuk menggoreng",
+            "10 buah cabai merah keriting",
+            "8 butir bawang merah",
+            "4 siung bawang putih"
+        ],
+        "prosedur" : [
+            "Lumuri ikan tongkol dengan air jeruk nipis dan separuh bagian Royco Kaldu Ayam hingga merata. Diamkan selama 10 menit. Sisihkan.",
+            "Panaskan minyak, goreng ikan tongkol hingga matang. Angkat dan tiriskan. Sisihkan.",
+            "Panaskan 3 sdm minyak, tumis bumbu halus bersama daun jeruk hingga harum. Kecilkan api, tambahkan tomat dan sisa Royco Kaldu Ayam, aduk rata. Masak hingga tomat hancur.",
+            "Tambahkan daun bawang, aduk hingga layu.",
+            "Masukkan ikan goreng, aduk rata. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "ayam",
+            "goreng",
+            "gurih"
+        ]
+    },
+    {
+        "nama_makanan": "Mie Ayam Rica-Rica",
+        "deskripsi" : "Mie ayam rica rica adalah pilihan baru menikmati comfort food yang jadi kesukaan banyak orang. Yuk, sajikan di rumah dengan resep ini!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/09/MIE-AYAM-RICA-RICA-WITH-PRODUCT-510x306.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500 g mi telur segar, rebus",
+            "400 g fillet dada ayam, potong dadu",
+            "50 g jamur kancing, belah dua",
+            "1 buah tomat merah, potong dadu",
+            "1 batang serai, memarkan",
+            "1 cm lengkuas",
+            "5 lembar daun jeruk",
+            "1 sdm gula pasir",
+            "½ sdt garam",
+            "½ sdt merica putih bubuk",
+            "500 ml air",
+            "1.5 L air, untuk kaldu",
+            "1 sdm Royco Kaldu Ayam",
+            "1 batang daun bawang, iris tipis",
+            "3 siung bawang putih, cincang halus",
+            "1 sdt gula pasir",
+            "2 sdm minyak, untuk menumis",
+            "6 butir bawang merah",
+            "4 siung bawang putih",
+            "5 buah cabai merah",
+            "6 buah cabai rawit merah",
+            "1 sdt ketumbar bubuk",
+            "1 cm jahe"
+        ],
+        "prosedur" : [
+            "Ayam rica-rica: Panaskan sedikit minyak, tumis bumbu halus hingga harum. Masukkan daging ayam, jamur, tomat, serai, lengkuas, dan daun jeruk. Masak hingga daging ayam berubah warna.",
+            "Masukkan 500 ml air, gula pasir, garam dan merica bubuk. Masak hingga air menyusut. Angkat dan sisihkan.",
+            "Kuah kaldu: Panaskan sedikit minyak, tumis bawang putih sebentar. Kemudian tuang 1.5 L air. Masukkan gula dan Royco Kaldu Ayam. Masak hingga tercampur rata. Angkat. Taburi daun bawang. Sisihkan.",
+            "Tata mi, ayam rica-rica, dan sawi hijau dalam mangkuk saji. Taburi dengan bawang goreng, sajikan."
+        ],
+        "kategori" : [
+            "Tumis",
+            "Ayam",
+            "gurih",
+            "mie"
+        ]
+    },
+    {
+        "nama_makanan": "Batagor Kuah Kaldu",
+        "deskripsi" : "Penggemar batagor mana suaranya? Yuk, coba satu resep seru batagor kuah kaldu yang nikmat banget ini! Sajikan untuk keluarga tercinta saat weekend!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2022/07/resep-batagor-kuah-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "12 lembar kulit pangsit",
+            "6 buah tahu putih, potong diagonal 2 bagian",
+            "minyak, untuk menggoreng",
+            "250 g daging ikan tenggiri giling",
+            "200 g daging ayam giling",
+            "100 g labu siam, parut halus",
+            "60 g tepung sagu",
+            "50 g es batu",
+            "3 siung bawang putih",
+            "1 sdt Royco Kaldu Ayam",
+            "1 sdt garam",
+            "1 sdt gula pasir",
+            "1 sdt merica putih bubuk",
+            "1 batang daun bawang, iris halus",
+            "300 g ceker ayam",
+            "1200 ml air, untuk merebus",
+            "3 siung bawang putih, cincang, tumis", 
+            "½ sdm garam", 
+            "½ sdm Royco Kaldu Ayam", 
+            "½ sdt merica putih bubuk"
+        ],
+        "prosedur" : [
+            "Kuah kaldu: Rebus ceker hingga mendidih dan setengah empuk. Masukkan semua sisa bahan termasuk Royco Kaldu Ayam. Masak di atas api kecil hingga ceker empuk. Angkat dan sisihkan.",
+            "Adonan batagor: Masukkan ikan tenggiri, daging ayam giling, labu siam, dan bawang putih ke dalam chopper atau food processor. Tambahkan tepung sagu, es batu, Royco Kaldu Ayam, garam, gula, dan merica. Proses hingga tercampur rata. Pindahkan ke dalam wadah. Tambahkan daun bawang, aduk.",
+            "Sisihkan sebanyak 6 sdm adonan batagor untuk isian tahu.",
+            "Ambil 1 potong tahu, keruk bagian tengahnya menggunakan sendok teh. Masukkan tahu yang sudah dikeruk ke dalam wadah berisi adonan ikan untuk isian tahu. Ulangi proses serupa untuk semua tahu dan aduk rata adonan batagor bersama sisa tahu yang dikeruk.",
+            "Isi setiap potongan tahu dengan campuran adonan. Sisihkan.", 
+            "Ambil selembar kulit pangsit, letakkan adonan batagor ke bagian tengahnya. Lipat setiap bagian sudutnya ke arah tengah hingga membentuk seperti piramida. Ulangi proses serupa pada sisa bahan.", 
+            "Bagi masing-masing menjadi 2 bagian tahu isi (batagor) dan pangsit isi. Masak dengan cara dikukus dan digoreng.", 
+            "Bagikan ke dalam mangkuk saji. Beri taburan seledri, Jawara Saus Sambal Extra Hot, dan Bango Kecap Manis. Tuang ceker dan kuah kaldu. Sajikan."
+        ],  
+        "kategori" : [
+            "ayam",
+            "gurih",
+            "seafood",
+            "goreng"
+        ]
+    },
+    {
+        "nama_makanan": "Kwetiau Goreng Spesial",
+        "deskripsi" : "Hidangan kwetiau goreng spesial a la restoran ini cocok buat kamu penggemar bakmi. Sajikan bersama acar mentimun, sambal, dan bawang goreng supaya makin mirip versi restoran.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Kwetiau-Goreng-Spesial-Lezat-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "1 bungkus kwetiau basah, uraikan, rendam air hangat, tiriskan",
+            "150 g daging sapi has dalam atau has luar, iris tipis",
+            "50 g udang kupas",
+            "150 g pakcoy, potong 4 cm",
+            "5 buah jamur hioko atau shiitake, iris",
+            "6 buah bakso sapi, iris",
+            "2 butir telur, buat orak-arik",
+            "50 g bawang bombay, iris",
+            "5 siung bawang putih, cincang",
+            "2 cm jahe, memarkan",
+            "2 buah cabai merah besar, potong serong",
+            "1 batang daun bawang, iris serong",
+            "2 sdm Bango Kecap Manis Less Sugar",
+            "1 sdm minyak wijen",
+            "2 sdm Royco Saus Tiram",
+            "1 sdt Royco Kaldu Sapi", 
+            "½ sdt merica putih bubuk", 
+            "3 sdm minyak, untuk menumis"
+        ],
+        "prosedur" : [
+            "Lumuri kwetiau dengan Bango Kecap Manis Less Sugar dan minyak wijen hingga merata. Tambahkan telur orak arik, sisihkan.",
+            "Panaskan minyak, tumis bawang putih, jahe, dan bawang bombay hingga harum. Masukkan daging sapi dan cabai, tumis hingga daging kaku.",
+            "Tambahkan udang, bakso, Royco Saus Tiram, dan merica, aduk sebentar.",
+            "Masukkan pakcoy, jamur, dan daun bawang, aduk rata. Taburi Royco Kaldu Sapi, aduk.",
+            "Masukkan campuran kwetiau dan telur, aduk hingga rata. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "Jamur",
+            "Tumis",
+            "daging",
+            "sayur",
+            "Mie"
+        ]
+    },
+    {
+        "nama_makanan": "Soto Seger Boyolali",
+        "deskripsi" : "Resep soto seger Boyolali yang segar dan gurih kuahnya. Sajikan untuk menu sarapan sekaligus makan siang. Jangan lupa sertakan hidangan pelengkapnya, ya!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/08/shutterstock_2334361447-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500 g daging sapi bagian sengkel",
+            "3 l air, untuk merebus",
+            "3 lembar daun salam",
+            "2 batang serai, memarkan",
+            "3 cm lengkuas, memarkan",
+            "1 bunga telang atau pekak",
+            "2 sdm Bango Kecap Manis",
+            "sdm Royco Kaldu Sapi",
+            "2 sdm minyak, untuk menumis",
+            "100 g suun, rendam air panas hingga lunak, tiriskan",
+            "150 g kol, iris tipis",
+            "150 g taoge, seduh air panas, tiriskan",
+            "3 sdm bawang putih goreng",
+            "2 batang seledri, iris tipis",
+            "8 butir bawang merah",
+            "5 siung bawang putih",
+            "3 butir kemiri sangrai", 
+            "½ sdm ketumbar", 
+            "½ sdm garam", 
+            "1 sdt merica putih"
+        ],
+        "prosedur" : [
+            "Rebus daging hingga mendidih. Kecilkan api dan buang buih kotor yang mengapung di permukaan. Masak hingga daging kaku.",
+            "Keluarkan daging dan biarkan api tetap menyala. Iris daging dan masukkan kembali ke dalam panci.",
+            "Tambahkan daun salam, serai, lengkuas, kapulaga, dan bunga telang. Teruskan memasak hingga meresap dan daging setengah empuk. Sisihkan",
+            "Panaskan minyak, tumis bumbu halus hingga harum. Angkat dan masukkan ke dalam panci berisi daging. Masak hingga daging empuk.",
+            "Tambahkan Bango Kecap Manis dan Royco Kaldu Sapi, aduk. Sisihkan.",
+            "Siapkan mangkuk saji, isi dengan suun, taoge, kol, bawang putih goreng, dan seledri. Tuang kuah soto beserta daging. Sajikan bersama Bango Kecap Manis dan bahan pelengkap lainnya."
+        ],
+        "kategori" : [
+            "Tumis",
+            "gurih",
+            "daging"
+        ]
+    },
+    {
+        "nama_makanan": "Sayur Kacang Panjang Saus Tiram",
+        "deskripsi" : "Butuh inspirasi menu pelengkap yang pas untuk segala suasana? Coba dulu resep sayur kacang panjang saus tiram ini, yuk! Mudah dan lezat!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2022/05/sayur-kacang-panjang-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "300 g kacang panjang, potong 4 cm",
+            "200 g jamur tiram",
+            "4 siung bawang putih, iris",
+            "6 butir bawang merah, iris",
+            "2 buah cabai merah, potong serong",
+            "2 sdm Royco Saus Tiram",
+            "½ sdt garam",
+            "100 ml air",
+            "3 sdm minyak, untuk menumis"
+        ],
+        "prosedur" : [
+            "Panaskan minyak, tumis bawang putih dan bawang merah hingga harum. Tambahkan cabai rawit, aduk rata.",
+            "Masukkan kacang panjang dan Royco Saus Tiram. Tambahkan garam, aduk hingga layu.",
+            "Tuang air, masak hingga kacang panjang setengah matang. Tambahkan jamur, masak hingga matang. Angkat. Sajikan."
+        ],
+        "kategori" : [
+            "Tumis",
+            "gurih",
+            "sayur"
+        ]
+    },
+    {
+        "nama_makanan": "Sop Tulang Sapi",
+        "deskripsi" : "Hidangan resep sop tulang sapi yang kuahnya bening dan sedap banget. Sajikan bersama perkedel kentang, sambal rawit, jeruk nipis, dan Bango Kecap Manis agar makin mantap.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Sop-Tulang-Sapi-Lezat-dan-Mudah-Dibuat-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "750g tulang sapi",
+            "200g wortel yang telah di potong serong",
+            "150g bucis, potong 3cm",
+            "3 batang seledri, ikat sampul",
+            "1 batang daun bawang, iris halus",
+            "1 buah tomat, potong 6 bagian",
+            "5cm kayu manis",
+            "1/2 butir pala, memarkan",
+            "1 sdm Royco Kaldu Sapi",
+            "3500ml air, untuk merebus",
+            "2 sdm minyak, untuk menumis",
+            "8 siung bawang merah",
+            "5 siung bawang putih",
+            "2cm jahe",
+            "1/2 sdm garam",
+            "1 sdt merica putih bubuk"
+        ],
+        "prosedur" : [
+            "Didihkan 1000 ml air, masukkan tulang, masak sebentar atau selama 1-2 menit  hingga airnya keruh. Angkat dan buang airnya.",
+            "Rebus tulang bersama sisa air hingga mendidih. Kecilkan api, masak di atas api kecil hingga kaldu meresap.",
+            "Tambahkan potongan daging, aduk rata. Teruskan memasak di atas api kecil hingga kaldu meresap (30-40 menit). Sisihkan.",
+            "Panaskan minyak, tumis bumbu halus bersama kayu manis dan pala hingga harum. Angkat dan masukkan ke dalam kuah kaldu.",
+            "Masukkan wortel dan seledri, rebus hingga wortel setengah matang.",
+            "Tambahkan buncis, Royco Kaldu Sapi, aduk rata. Masak hingga meresap. Tambahkan tomat dan daun bawang, aduk hingga layu. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "sapi",
+            "asin",
+            "sayur",
+            "kuah",
+            "panas"
+        ]
+    },
+    {
+        "nama_makanan": "Mie Laksa Singapore",
+        "deskripsi" : "Sajian laksa Singapore a la kopitiam yang kuahnya medok. Cocok banget buat kamu yang lagi kangen sama masakan khas Singapura. Cocok buat menu arisan atau kumpul keluarga.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/Resep-Laksa-Singapore-Lezat-dan-Mudah-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500g udang",
+            "5 porsi mi telur segar",
+            "10 butir bakso ikan",
+            "5 butir telur rebus, kupas, potong 2 bagian",
+            "5 buah tahu putih, goreng hingga berkulit, potong 2 bagian",
+            "150g taoge",
+            "65ml santan instan",
+            "1300ml air",
+            "1 sdm kecap ikan",
+            "1/2 sdm Royco Kaldu Ayam",
+            "1 sdm gula pasir",
+            "3 sdm minyak, untuk menumis",
+            "100g sambil rawit",
+            "5 siung daun ketumbar, cincang",
+            "10 buah jeruk nipis",
+            "4 butir kemiri sangrai",
+            "4cm kunyit",
+            "3cm lengkuas",
+            "2 sdm ebi",
+            "1/2 smd terasi bakar",
+            "1/2 sdm garam"
+        ],
+        "prosedur" : [
+            "Kupas udang dan sisakan ekornya menempel pada badan udang. Cuci bersih kepala dan kulit udang. Sisihkan.",
+            "Didihkan air, masukkan kepala dan kulit udang. Kecilkan api, rebus hingga kaldu meresap selama 20 menit. Saring kaldunya. Sisihkan.",
+            "Panaskan minyak, tumis bumbu halus hingga harum. Angkat dan masukkan ke dalam panci berisi kaldu.",
+            "Masak di atas api sedang. Tambahkan santan, masak sambil diaduk hingga menyerap. Sisihkan.",
+            "Didihkan air untuk merebus mie, angkat dan tiriskan. Masukkan ke dalam mangkuk saji. Sisihkan.",
+            "Masukkan udang dan bakso ikan ke dalam kuah laksa, masak hingga udang matang. Angkat.",
+            "Tambahkan taoge ke dalam mangkuk saji. Tuang kuah laksa beserta udang dan bakso ikan. Sajikan bersama taburan daun ketumbar dan bahan pelengkap lainnya."
+        ],
+        "kategori" : [
+            "mie",
+            "asin",
+            "kuah",
+            "panas",
+            "pedas"
+        ]
+    },
+    {
+        "nama_makanan": "Mie Sop Medan",
+        "deskripsi" : "Sajian mie sop Medan yang populer sebagai salah satu menu sarapan di Sumatera Utara. Coba bikin untuk menu sarapan weekend ini, yuk!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/shutterstock_1628366983-780x440.jpg",
+        "click_count": 0,
+        "resep" : [
+            "1 ekor ayam kampung, potong 4 bagian",
+            "2l air, untuk merebus",
+            "150g bihun medan, rebus hingga matang ,tiriskan",
+            "150g mi kuning, blansir",
+            "2 buah tomat, potong 8 bagian",
+            "5 butir kapulaga",
+            "5cm kayu manis",
+            "5 butir cengkih",
+            "2 butir pekak",
+            "1/2 butir pala, memarkan",
+            "3 lembar daun salam",
+            "1 batang serai, memarkan",
+            "1 sdm bango kecap manis",
+            "1/2 sdm Royco Kaldu Ayam",
+            "3 sdm minyak, untuk menumis",
+            "8 butir bawang merah",
+            "6 siung bawang putih",
+            "3 butir kemiri sangrai",
+            "2cm jahe",
+            "1/2 sdm garam"
+        ],
+        "prosedur" : [
+            "Rebus potongan ayam hingga mendidih, kecilkan api. Masukkan kayu manis, kapulaga, cengkih, pekak, dan pala. Sisihkan.",
+            "Panaskan minyak, tumis bumbu halus bersama daun salam dan serai hingga harum. Angkat. Masukkan ke dalam panci berisi daging ayam.",
+            "Rebus hingga daging ayam empuk. Tambahkan Bango Kecap Manis dan Royco Kaldu Ayam. Aduk hingga meresap. Angkat.",
+            "Keluarkan daging ayam, suwir-suwir. Sisihkan.",
+            "Siapkan mangkuk saji, isi dengan bihun, mie, tomat, dan ayam suwir. Tuang kuahnya. Taburi seledri dan bawang goreng. Sajikan bersama Bango Kecap Manis dan bahan pelengkap lainnya."
+        ],
+        "kategori" : [
+            "ayam",
+            "mie",
+            "panas",
+            "asin",
+            "kuah"
+
+        ]
+    },
+    {
+        "nama_makanan": "Capcay Kuah Kental",
+        "deskripsi" : "Resep capcay kuah kental rumahan ini pas banget buat mengolah sisa berbagai sayuran dalam kulkas. Sajikan bersama sapi lada hitam atau fuyunghai.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Capcay-Kuah-Kental-Rumahan-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "150g fillet daging ayam tanpa kulit, iris",
+            "1 buah wortel, kupas, potong serong",
+            "100g brokoli, siangi",
+            "100g kembang kol, siangi",
+            "80g jamur kuping segar, rendam air panas, tiriskan, iris",
+            "6 batang sawi hijau, potong 4cm",
+            "3 lembar sawi putih, potong 3cm",
+            "6 buah bakso sapi iris",
+            "1 batang daun bawang, iris serong",
+            "4 siung bawang putih, memarkan",
+            "50g bawang bombay, iris",
+            "2 sdm Royco Saus Tiram",
+            "1 sdt Royco Kaldu Ayam",
+            "300ml air",
+            "1 sdm tepung maizena, larutkan dengan 2 sdm air",
+            "3 sdm minyak, untuk menumis"
+        ],
+        "prosedur" : [
+            "Panaskan minyak, tumis bawang putih dan bawang bombay hingga harum.",
+            "Masukkan daging ayam, aduk hingga kaku. Tambahkan Royco Saus Tiram dan Royco Kaldu Ayam, aduk. Masukkan wortel dan tuang air, masak hingga mendidih.",
+            "Masukkan brokoli, kembang kol, jamur kuping, dan bakso, masak hingga sayuran setengah matang.",
+            "Masukkan semua sisa bahan sayuran, aduk rata. Tambahkan larutan maizena, aduk hingga mengental. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "sayur",
+            "asin",
+            "kuah",
+            "ayam",
+            "sayur"
+        ]
+    },
+    {
+        "nama_makanan": "Chicken Karage",
+        "deskripsi" : "Seporsi chicken karage disajikan bersama perasan jeruk lemon yang bikin ayam goreng tepung ini jadi kaya rasa. Bukan cuma mi, hidangan ini cocok menemani nasi hangat atau nasi berbumbu seperti nasi goreng.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/shutterstock_736494148-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500g fillet paha ayam tanpa kulit, potong kotak 4-5 cm",
+            "4 sdm tepung terigu",
+            "4 sdm tepung maizena",
+            "1l minyak, untuk menggoreng",
+            "3 cm jahe, parut halus",
+            "2 sdm shoyu/ kecap asin Jepang",
+            "4 siung bawang putih, parut",
+            "1/2 sdt Royco Kaldu Ayam",
+            "1/2 sdt merica hitam bubuk"
+        ],
+        "prosedur" : [
+            "Bumbu perendam: Aduk rata semua bahan bumbu perendam termasuk Royco Kaldu Ayam.",
+            "Lumuri daging ayam dengan bumbu perendam. Diamkan dalam kulkas hingga menyerap (± 30 menit).",
+            "Ambil 1 potong daging ayam, lumuri dengan tepung terigu lalu tepuk-tepuk supaya lapisan tepung tak terlalu tebal. Lapisi kembali dengan tepung maizena, tepuk-tepuk kembali. Sisihkan. Ulangi proses serupa pada sisa bahan hingga habis.",
+            "Goreng dalam minyak banyak dan panas hingga ayam matang dan berwarna keemasan. Angkat, tiriskan. Sajikan bersama jeruk lemon dan Jawara Saus Sambal Hot."    
+        ],
+        "kategori" : [
+            "ayam",
+            "goreng",
+            "asin",
+            "lauk"
+        ]
+    },
+    {
+        "nama_makanan": "Ayam Tepung Asam Manis",
+        "deskripsi" : "Ayam tepung asam manis a la restoran Cina ini cocok banget kamu sajikan bersama capcay sayuran, cumi saus mentega, atau udang saus tiram. Siapkan untuk menu istimewa weekend ini, ya!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/09/ayam-tepung-asam-manis-780x440-1-500x300.jpeg",
+        "click_count": 0,
+        "resep" : [
+            "500g fillet daing ayam tanpa kulit, potong kotak 5cm",
+            "1 sdt garam",
+            "1/4 sdt merica putih bubuk",
+            "1l minyak, untuk menggoreng",
+            "Adonan tepung kering, Aduk rata:",
+            "150g tepung terigu",
+            "50g tepung maizena",
+            "1/2 sdm baking powder",
+            "1/2 sdm bawang putih bubuk",
+            "1/2 sdt Royco Kaldu Ayam",
+            "1/2 sdt garam",
+            "1/2 sdt merica putih bubuk",
+            "Adonan tepung basah:",
+            "100ml susu cair",
+            "3 sdm campurang tepung kering",
+            "1 butir telur",
+            "1 sdt cuka",
+            "1/2 sdt Royco Kaldu Ayam",
+            "1/2 sdt garam",
+            "1/4 sdt merica putih bubuk",
+            "Saus asam manis:",
+            "3 buah tomat, blansir, buang kulitnya, haluskan",
+            "3 buah cabai merah besar, belah 2 bagian, potong-potong",
+            "1 buah bawang bombay, potong kotak",
+            "1 batang daun bawang, potong serong",
+            "3 siung bawa putih, memarkan",
+            "100ml air",
+            "2 sdm Jawara Saus Sambal Hot",
+            "2 sdm Royco Saus Tiram",
+            "2 sdm Bango Kecap Manis",
+            "1/2 sdt garam",
+            "1 sdm tepung maizena, larutkan dengan 2 sdm air",
+            "2 sdm minyak, untuk menumis"
+            
+        ],
+        "prosedur" : [
+            "Lumuri daging ayam dengan garam dan merica hingga merata. Diamkan dalam kulkas selama 30 menit. Sisihkan.",
+            "Saus asam manis: Panaskan minyak, tumis bawang putih, bawang bombay, dan cabai hingga harum. Masukkan tomat, aduk rata. Tambahkan air, Jawara Saus Sambal Hot, Royco Saus Tiram, Bango Kecap Manis, dan garam. Kecilkan api, aduk hingga mendidih. Masukkan daun bawang dan larutan maizena, aduk hingga mengental. Angkat. Sisihkan.",
+            "Keluarkan daging ayam, celupkan ke dalam adonan basah, kemudian lumuri dengan lapisan tepung kering.",
+            "Panaskan minyak, goreng daging ayam hingga matang dan kecokelatan. Angkat. Aduk rata bersama saus asam manis. Sajikan."
+        ],
+        "kategori" : [
+            "ayam",
+            "goreng",
+            "manis",
+            "lauk"
+
+        ]
+    },
+    {
+        "nama_makanan": "Ikan Pesmol",
+        "deskripsi" : "Resep ikan pesmol kembung sederhana dan mudah dibuat. Padukan dengan sayuran tumis atau sayuran berkuah. Jangan lupa dengan pepes tahu juga!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/08/shutterstock_2169013025-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500g ikan kembung atau ikan kakap, siangi",
+            "150g g wortel, potong korek api",
+            "2 buah mentimun, buang bijinya, potong korek api",
+            "100g bawang merah kupas utuh",
+            "12 buah cabai rawit merah utuh",
+            "5 lembar daun jeruk",
+            "3cm lengkuas, memarkan",
+            "2 batang serai, memarkan",
+            "1 sdt garam",
+            "3 sdm air jeruk nipis",
+            "1 sdt Royco Kaldu Ayam",
+            "200ml air",
+            "minyak, untuk menggoreng dan menumis",
+            "4 siung bawang putih",
+            "4 butir kemiri",
+            "4 cm kunyit",
+            "2cm jahe",
+            "1/2 sdm ketumbar",
+            "1 sdt merica putih bubuk",
+            "1 sdt garam",
+            "1 sdt gula pasir"
+        ],
+        "prosedur" : [
+            "Lumuri ikan dengan garam dan 2 sdm air jeruk nipis secara merata. Diamkan selama 20 menit. Sisihkan.",
+            "Panaskan minyak, goreng ikan hingga matang. Angkat dan tiriskan. Sisihkan.",
+            "Panaskan 3 sdm minyak sisa menggoreng ikan, tumis bumbu halus bersama daun jeruk, lengkuas, dan serai hingga harum.",
+            "Tuang air, Royco Kaldu Ayam, masak hingga mendidih. Masukkan wortel, bawang merah, dan cabai rawit. Masak hingga setengah matang.",
+            "Tambahkan mentimun dan sisa air jeruk nipis, aduk rata. Masukkan ikan, aduk rata hingga mentimun layu. Angkat. Sajikan."
+        ],
+        "kategori" : [
+            "ikan",
+            "asin",
+            "goreng",
+            "pedas"
+        ]
+    },
+    {
+        "nama_makanan": "Ayam Palekko Khas Bugis",
+        "deskripsi" : "Resep ayam palekko yang pedas dan gampang bikinnya. Cocok buat kamu yang suka dengan menu ayam woku khas Sulawesi Utara. Bikin, yuk!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/08/shutterstock_1982886371-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "1 ekor ayam, potong 16-20 bagian, buang kulitnya",
+            "4 lembar daun jeruk",
+            "3 cm lengkuas, iris tipis",
+            "3 batang serai, memarkan",
+            "100ml air",
+            "2 sdm air asam jawa",
+            "1 sdt Royco Kaldu Ayam",
+            "3 sdm minyak, untuk menumis",
+            "10 butir bawang merah",
+            "4 siung bawang putih",
+            "6 buah cabai rawit merah",
+            "3 cm kunyit",
+            "2 cm jahe",
+            "1 sdt garam",
+            "1/2 sdt merica putih"
+        ],
+        "prosedur" : [
+            "Panaskan minyak, tumis bumbu halus bersama daun jeruk, lengkuas, dan serai hingga harum.",
+            "Masukkan daging ayam, aduk rata. Masak hingga setengah matang. Tuang air, aduk.",
+            "Kecilkan api, tambahkan Royco Kaldu Ayam dan air asam jawa, aduk.",
+            "Masak sambil sesekali diaduk hingga daging ayam matang. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "ayam",
+            "pedas",
+            "asin"
+        ]
+    },
+    {
+        "nama_makanan": "Gudeg Koyor Semarang",
+        "deskripsi" : "Hidangan gudeg koyor Semarang yang kuahnya gurih, sedap, dengan sensasi pedas. Biar makin pintar memasak, yuk, cobain resepnya!",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/08/gudeg-koyor-500x300.jpeg",
+        "click_count": 0,
+        "resep" : [
+            "250g koyor atau otot sapi rebus",
+            "250g daging sapi bagian sengkel",
+            "400g nangka muda, potong-potong",
+            "130ml santan instan",
+            "6 lembar daun jeruk",
+            "4 lembar daun salam",
+            "4 batang serai, memarkan",
+            "5 cm lengkuas, memarkan",
+            "4 sdm Bango Kecap Manis",
+            "1/2 sdm Royco Kaldu Sapi",
+            "1Liter air, untuk merebus",
+            "3 sdm minyak, untuk menumis",
+            "10 butir bawang merah",
+            "5 siung bawang putih",
+            "10 buah cabai merah keriting",
+            "8 buah cabai rawit merah",
+            "5 butir kemiri sangrai",
+            "2 sdm ketumbar bubuk",
+            "1 sdt merica putih bubuk",
+            "1 sdm garam"
+        ],
+        "prosedur" : [
+            "Didihkan 1 liter air, rebus koyor bersama 2 lembar daun salam dan 1 batang serai selama 30 menit. Angkat dan buang airnya. Potong-potong dan cuci bersih.",
+            "Rebus kembali koyor sisa air hingga mendidih. Kecilkan api. Masukkan sengkel, nangka, sisa daun salam dan lengkuas. Tutup panci dan masak selama 1 jam atau hingga setengah empuk.",
+            "Panaskan minyak, tumis bumbu halus bersama daun jeruk, lengkuas, dan serai hingga harum. Masukkan ke dalam panci berisi koyor.",
+            "Tambahkan santan, Bango Kecap Manis, dan Royco Kaldu Sapi, aduk. Masak kembali selama 90 menit atau lebih sambil sesekali diaduk hingga koyor empuk. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "sapi",
+            "pedas",
+            "asin"
+        ]
+    },
+    {
+        "nama_makanan": "Ikan Mujair Bumbu Kuning",
+        "deskripsi" : "Resep ikan mujair bumbu kuning dengan kuah segar tanpa santan dan minim minyak. Cocok banget buat kamu yang lagi bosan sama menu diet yang itu-itu saja.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/10/shutterstock_168438374-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "600g ikan mujair, potong 4 bagian",
+            "2 batang serai, memarkan",
+            "2cm lengkuas, iris tipis",
+            "2 sdt gula pasir",
+            "2 sdm perasan air jeruk nipis",
+            "1l air",
+            "3 sdm Bango Kecap Manis",
+            "1 sdt garam",
+            "2 sdm minyak, untuk menumis",
+            "5 butir bawang merah",
+            "3 siung bawang putih",
+            "3 buah cabai merah besar",
+            "2cm jahe",
+            "3cm kunyit"
+        ],
+        "prosedur" : [
+            "Panaskan minyak, tumis bumbu halus, serai, dan lengkuas hingga harum.",
+            "Masukkan ikan, aduk rata. Tuang air, masak dengan api kecil hingga mendidih.",
+            "Tambahkan gula, garam, dan Bango Kecap Manis. Aduk rata.",
+            "Masukkan perasan air jeruk nipis, aduk rata. Angkat dan sajikan."
+        ],
+        "kategori" : [
+            "ikan",
+            "manis",
+            "kuah"
+        ]
+    },
+    {
+        "nama_makanan": "Beef Steak Saus Lada Hitam",
+        "deskripsi": "Beef Steak Saus Lada Hitam adalah sajian yang memukau dengan perpaduan sempurna antara daging sapi pilihan yang dipanggang dengan sempurna dan saus lada hitam yang kaya akan cita rasa. Daging sapi yang digunakan dipilih secara cermat untuk memastikan kelembutan dan kelezatannya, kemudian dipanggang dengan api yang pas untuk mencapai tekstur yang sempurna: luar renyah dan dalam empuk.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2022/05/beef-steak-sapi-lada-hitam-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "360g daging sapi tenderloin (180g x 2)",
+            "½ sdt garam",
+            "¼ sdt merica hitam, gerus kasar",
+            "3 siung bawang putih",
+            "1 sdt thyme",
+            "3 sdm mentega",
+            "4 sdm bawang bombay, cincang",
+            "2 siung bawang putih, cincang",
+            "1 sdt tepung terigu",
+            "175ml susu cair",
+            "2 sdt merica hitam, gerus kasar",
+            "1 sdt Royco Kaldu Sapi"
+        ],
+        "prosedur" : [
+            "Lumuri daging sapi dengan garam dan merica. Diamkan selama 5-10 menit.",
+            "Panaskan mentega dalam wajan antilengket, masak daging sapi bersama bawang putih dan thyme hingga tingkat kematangannya sesuai selera. Angkat. Keluarkan daging sapi beserta bawang putih dan rosemary dari wajan.",
+            "Saus lada hitam: Tumis bawang bombay dan bawang putih menggunakan sisa mentega memasak daging. Masukkan tepung terigu, aduk rata. Tuang susu cair dan Royco Kaldu Sapi. Masak hingga mengental.",
+            "Tambahkan merica hitam, masak hingga tercampur rata. Angkat.",
+            "Sajikan steak bersama saus lada hitam dan sayuran pelengkap."
+        ],
+        "kategori" : [
+            "sapi",
+            "asin",
+            "pedas",
+            "panas"
+        ]
+    },
+    {
+        "nama_makanan": "Steak Saus Mushroom",
+        "deskripsi": "Steak Saus Mushroom adalah kreasi kuliner yang memanjakan lidah dengan perpaduan sempurna antara daging sapi yang lembut dan saus jamur yang kaya rasa. Daging sapi dipilih dengan teliti, kemudian dipanggang secara apik untuk mencapai kematangan yang sempurna, dengan luar yang kriuk dan dalam yang empuk",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/01/steak-saus-mushroom-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500g daging sirloin, potong",
+            "buncis",
+            "wortel",
+            "jagung manis",
+            "kentang, goreng",
+            "garam",
+            "merica hitam bubuk",
+            "100g jamur champignon, iris tipis",
+            "2 siung bawang putih",
+            "1 buah bawang bombay",
+            "5 sdm Bango Kecap Manis",
+            "200 ml kaldu sapi",
+            "2 sdm tepung terigu",
+            "1 sdm margarin, untuk menumis",
+            "merica putih bubuk",
+            "garam",
+            "oregano"
+        ],
+        "prosedur" : [
+            "Lumuri daging dengan garam dan lada, kemudian diamkan beberapa saat.",
+            "Saus mushroom: Cincang halus bawang putih dan bawang bombay lalu tumis dengan margarin. Masukkan jamur, aduk sampai rata.",
+            "kemudian tambahkan Bango Kecap Manis, kaldu sapi, tepung terigu, garam, lada bubuk dan oregano. Masak terus sampai saus mengental, setelah itu angkat dan tempatkan dalam mangkuk kecil.",
+            "Potong-potong dan rebus buncis, wortel dan jagung manis dipotong-potong sampai matang. Tiriskan dan tata di piring.",
+            "Goreng kentang hingga matang. Tiriskan dan tata di atas piring.",
+            "Terakhir, panggang daging sirloin sesuai tingkat kematangan yang diinginkan.",
+            "Sajikan steak bersama sayur, kentang dan saus mushroom."
+        ],
+        "kategori" : [
+            "sapi",
+            "asin",
+            "pedas",
+            "panas"
+        ]
+    },
+    {
+        "nama_makanan": "Daging Sapi Kecap",
+        "deskripsi": "Daging Sapi Kecap merupakan hidangan yang memikat selera dengan paduan istimewa antara daging sapi yang empuk dan saus kecap yang khas. Daging sapi dipilih dengan teliti untuk memastikan kualitasnya, kemudian dimasak dengan penuh keahlian hingga mencapai kematangan yang sempurna.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2022/07/daging-masak-kecap-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500g daging sapi bagian has luar, potong kotak 3 cm",
+            "150g wortel, potong 2 cm",
+            "4 sdm Bango Kecap Manis Hitam Gurih",
+            "1 sdt garam",
+            "½ sdt merica putih bubuk",
+            "3 lembar daun salam",
+            "1 batang serai, memarkan",
+            "250 ml air",
+            "1 sdt Royco Kaldu Sapi",
+            "3 sdm minyak, untuk menumis",
+            "8 butir bawang merah",
+            "6 siung bawang putih",
+            "6 buah cabai hijau",
+            "3 cm lengkuas",
+            "2 cm jahe"
+        ],
+        "prosedur" : [
+            "Lumuri daging sapi dengan Bango Kecap Manis Hitam Gurih, garam, dan merica sambil diremas-remas. Diamkan dalam kulkas selama 1 jam. Sisihkan",
+            "Panaskan minyak, tumis semua bahan bumbu iris bersama daun salam dan serai hingga harum.",
+            "Masukkan daging sapi, aduk rata. Tuang air, masak hingga mendidih.",
+            "Tambahkan Royco Kaldu Sapi, aduk. Tutup wajan. Masak hingga hampir empuk. Tambahkan wortel, aduk. Masak hingga daging empuk dan wortel matang. Angkat.",
+            "Sajikan."
+        ],
+        "kategori" : [
+            "Sapi",
+            "asin",
+            "panas"
+        ]
+    },
+    {
+        "nama_makanan": "Steak Tempe Saus Lada Hitam",
+        "deskripsi": "ingin alternatif yang kreatif? atau yang ingin mencoba hidangan yang berbeda?. Hidangan ini menggabungkan kelezatan tempe dengan sentuhan pedas dan tajam dari saus lada hitam, menciptakan pengalaman makan yang memuaskan. ",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2018/06/steak_tempe_MAHI-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "300g tempe",
+            "60g tepung terigu",
+            "3 butir telur ayam",
+            "3 siung bawang putih, haluskan",
+            "1 sachet Royco Kaldu Ayam",
+            "garam",
+            "merica putih bubuk",
+            "minyak sayur",
+            "1 buah bawang bombay, iris memanjang",
+            "2 siung bawang putih, haluskan",
+            "1 sdm saus tiram",
+            "2 sdm saus sambal",
+            "1 sdm saus tomat",
+            "1 sdm lada hitam bubuk",
+            "air"
+        ],
+        "prosedur" : [
+            "Kukus tempe 30 menit hingga matang, angkat, dan letakkan di wadah terpisah.",
+            "Haluskan tempe dan tambahkan tepung terigu. Aduk rata.",
+            "Masukkan bawang putih yg sudah dihaluskan, Royco Kaldu Ayam, garam, dan lada secukupnya, Aduk hingga tercampur rata.",
+            "Tambahkan telur ke dalam adonan tempe. Aduk kembali hingga mudah dibentuk seperti steak. Kemudian bentuk steak tempe sesuai keinginan.",
+            "Setelah dibentuk, masak steak tempe di atas wajan anti lengket yang diberikan sedikit minyak sayur. Steak siap disajikan bersama pelengkap dan saus lada hitam.",
+            "Membuat saus lada hitam: Tumis bawang putih dan bawang bombay dengan sedikit minyak hingga wangi. Tambahkan lada hitam, saus tiram, saus sambal, dan saus tomat. Aduk sampai rata, kemudian tambahkan air dan biarkan hingga matang dan mengental. Saus lada hitam siap digunakan."
+        ],
+        "kategori" : [
+            "pedas",
+            "asin",
+            "panas"
+        ]
+    },
+    {
+        "nama_makanan": "Bestik Sapi Lulur",
+        "deskripsi": "Bestik Sapi Lulur merupakan hidangan yang menggabungkan kelezatan daging sapi dengan keharuman dan kekayaan rempah-rempah ala lulur, menciptakan pengalaman kuliner yang unik dan memikat.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/09/shutterstock_683343985-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "500g daging sapi has dalam, iris tebal 1/2 cm",
+            "½sdt merica putih bubuk",
+            "½ sdt garam",
+            "¼ sdt cuka",
+            "5 butir bawang merah, iris tipis",
+            "4 sdm Bango Kecap Manis",
+            "½ sdt merica putih bubuk",
+            "½ sdt garam",
+            "1 sdm margarin, untuk menumis",
+            "800 ml air"
+        ],
+        "prosedur" : [
+            "Marinasi merata daging dengan garam, merica putih bubuk, dan cuka. Sisihkan.",
+            "Tumis bawang merah hingga harum. Tambahkan Bango Kecap Manis, garam, merica, dan air. Aduk rata.",
+            "Masukkan daging, aduk rata. Didihkan kemudian kecilkan api. Lanjutkan memasak hingga bumbu meresap pada daging yang telah matang dan empuk. Sekaligus kuah juga mengental.",
+            "Sajikan segera ditemani nasi putih atau kentang goreng dan sayuran."
+            
+        ],
+        "kategori" : [
+            "sapi",
+            "asin",
+            "manis"
+        ]
+    },
+    {
+        "nama_makanan": "Martabak Mini Telur",
+        "deskripsi" : "Martabak Mini Telur adalah camilan yang lezat dan populer di Indonesia, terkenal karena kombinasi telur, daging cincang, bawang, dan bumbu-bumbu yang dibungkus dalam lapisan kulit martabak yang tipis. Hidangan ini sering disajikan sebagai pilihan sarapan atau makanan ringan yang mengenyangkan.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/11/Resep-Martabak-Mini-Telur-Simple-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "12 lembar kulit lumpia",
+            "Minyak, untuk menumis dan menggoreng",
+            "250g daging sapi giling",
+            "80g wortel cincang",
+            "10 butir bawang merah, iris tipis",
+            "1 sdm kari bubuk",
+            "½ sdt Royco Kaldu Sapi",
+            "2 butir telur, kocok lepas",
+            "1 batang daun bawang, iris halus",
+            "1 buah bawang bombay, cincang halus",
+            "1 sdt merica bubuk",
+            "½ sdt Royco Kaldu Sapi",
+            "1 buah bawang bombay, potong 4 bagian, iris",
+            "12 buah cabai rawit hijau, potong 2-3 bagian",
+            "1 sdm cuka",
+            "150 ml air panas",
+            "2 sdm Bango Kecap Manis",
+            "1 sdm gula pasir",
+            "½ sdt garam"
+        ],
+        "prosedur" : [
+            "Saus martabak: Aduk rata air panas, cuka, Bango Kecap Manis, dan garam. Masukkan bawang bombay dan cabai, aduk. Sisihkan.",
+            "Tumis daging kari: Panaskan 2 sdm minyak, tumis bawang merah hingga harum, masukkan daging giling. Bubuhkan Royco Kaldu Sapi dan bumbu kari, aduk hingga daging hampir matang. Tambahkan wortel, masak hingga matang. Angkat dan sisihkan.",
+            "Adonan telur: Kocok telur bersama daun bawang, bawang bombay, merica, dan Royco Kaldu Sapi. Aduk rata bersama tumis daging kari. Sisihkan.",
+            "Ambil selembar kulit lumpia, taruh 2 sdm adonan telur-daging di tengahnya. Lipat sisi kiri dan kanan ke tengah, lalu lipat hingga menyerupai amplop dan adonan isi ada di tengah. Ulangi hingga didapat beberapa buah martabak untuk sekali menggoreng.",
+            "Panaskan minyak, goreng martabak hingga matang. Angkat dan tiriskan. Ulangi proses melipat dan menggoreng martabak hingga habis.",
+            "Sajikan martabak bersama sausnya."
+        ],
+        "kategori" : [
+            "sapi",
+            "lauk",
+            "panas",
+            "goreng"
+        ]
+    },
+    {
+        "nama_makanan": "Telur Bistik",
+        "deskripsi" : "Telur Bistik adalah sajian sederhana namun lezat yang menghadirkan perpaduan antara telur dan daging sapi bersama dengan bumbu-bumbu yang kaya rasa. Hidangan ini sering menjadi pilihan yang cepat dan mudah untuk sarapan atau makan malam yang memuaskan.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2019/06/shutterstock_128718047-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "5 butir telur ayam ukuran sedang",
+            "250 g daging sapi giling",
+            "1 buah tomat, iris",
+            "2 lembar daun selada",
+            "½ buah wortel, potong 5x1 cm",
+            "5 buah buncis, potong 5 cm",
+            "1 buah kentang, potong 5x1 cm, rebus",
+            "½ buah bawang bombay, cincang halus",
+            "½ sdt Royco Kaldu Sapi",
+            "¼ sdt merica putih bubuk",
+            "2 sdm margarin",
+            "1sdm gula merah",
+            "1 sdm Royco Kaldu Sapi",
+            "1 sdm saus tomat",
+            "1 sdt kecap inggris",
+            "½ sdt gula pasir"
+        ],
+        "prosedur" : [
+            "Aduk rata daging giling bersama 1 butir telur ayam, bawang bombay, merica, dan Royco Kaldu Sapi. Sisihkan.",
+            "Rebus hingga matang sisa semua telur. Angkat. Kupas, sisihkan.",
+            "Bagi adonan daging menjadi 4 bagian. Ambil satu bagian, gunakan untuk membungkus telur, bulatkan. Ulangi proses serupa pada sisa bahan.",
+            "Didihkan air, rebus bola daging hingga matang. Angkat. Tiriskan.",
+            "Panaskan minyak, goreng bola daging hingga kecokelatan. Angkat dan tiriskan.",
+            "Saus: Panaskan margarin, masukkan saus tomat, kecap inggris, Royco Kaldu Sapi, dan gula pasir. Masak hingga mendidih. Angkat. Sajikan bistik telur dan sayuran dengan sausnya."
+        ],
+        "kategori" : [
+            "manis",
+            "lauk",
+            "panas"
+        ]
+    },
+    {
+        "nama_makanan": "Tamagoyaki",
+        "deskripsi" : "Tamagoyaki adalah hidangan Jepang yang merupakan variasi telur dadar yang dilipat menjadi lapisan-lapisan tipis, memberikan tekstur lembut dan cita rasa yang manis.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/shutterstock_2204647875-1-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "4 butir telur ayam",
+            "3 sdm wortel cincang",
+            "1 sdm bawang bombay cincang",
+            "2 sdm air",
+            "½ sdm Royco Kaldu Ayam Spesial",
+            "1 sdm shoyu atau kecap asin Jepang",
+            "½ sdt gula pasir",
+            "Minyak, untuk mengoles wajan"
+
+        ],
+        "prosedur" : [
+            "Kocok lepas telur bersama Royco Kaldu Ayam Spesial. Masukkan sisa semua bahan kecuali minyak, aduk hingga rata.",
+            "Panaskan wajan datar persegi khusus tamagoyaki, olesi seluruh permukaannya dengan minyak hingga rata. Supaya merata dan tipis, olesi permukaannya menggunakan tisu dapur setelah dituang minyak sebanyak ½-1 sdm.",
+            "Tuang ½ bagian adonan telur, masak hingga telur setengah matang atau sudah mudah dilipat atau digulung.",
+            "Lipat atau gulung telur selebar 3-4 cm ke arah berlawanan hingga membentuk seperti telur dadar yang digulung atau dilipat. Gunakan bantuan sumpit atau spatula untuk melipatnya hingga membentuk balok panjang. Angkat.",
+            "Ulangi proses serupa untuk sisa bahan. Potong-potong dan sajikan."
+
+        ],
+        "kategori" : [
+            "manis",
+            "lauk",
+            "panas",
+            "goreng",
+            "kering"
+        ]
+    },
+    {
+        "nama_makanan": "Martabak Mie",
+        "deskripsi" : "Omelet Mie adalah hidangan yang menyatukan kelezatan omelet dengan mie goreng, menciptakan kombinasi yang lezat dan memuaskan. Hidangan ini merupakan campuran antara omelet yang padat dan mie goreng yang gurih, menciptakan pengalaman makan yang nikmat.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/10/shutterstock_2281051783-1-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "3 butir telur ayam",
+            "70g telur rebus hingga matang, tiriskan",
+            "2 sdm wortel cincang",
+            "1 sdm keju cheddar parut",
+            "1 sdm daun bawang cincang",
+            "½ sdt Royco Kaldu Ayam Spesial",
+            "¼ sdt garam",
+            "⅕ sdt merica putih bubuk",
+            "2 sdm minyak"
+
+
+        ],
+        "prosedur" : [
+            "Siapkan mangkuk besar, kocok lepas telur. Taburi Royco Kaldu Ayam Spesial, garam, dan merica bubuk. Aduk rata.",
+            "Masukan mie, wortel, keju, dan daun bawang, aduk rata",
+            "Panaskan minyak dalam wajan datar antilengket, tuang campuran mie ke dalam wajan. Kecilkan api, tutup wajan.",
+            "Masak hingga setengah matang. Balikkan omelet mie. Masak hingga matang. Angkat dan sajikan."
+
+        ],
+        "kategori" : [
+            "lauk",
+            "panas",
+            "goreng",
+            "kering"
+        ]
+    },
+    {
+        "nama_makanan": "Martabak Tahu Telur",
+        "deskripsi" : "Martabak Tahu Telur adalah hidangan lezat yang menggabungkan tahu dan telur bersamaan dengan bumbu-bumbu yang kaya rasa, menciptakan camilan yang populer di Indonesia. Hidangan ini sering dijual di warung atau pedagang kaki lima, dan merupakan pilihan favorit masyarakat yang menyukai hidangan yang gurih dan lezat.",
+        "path_gambar": "https://www.masakapahariini.com/wp-content/uploads/2023/03/shutterstock_2103401597-1-500x300.jpg",
+        "click_count": 0,
+        "resep" : [
+            "400g tahu putih, haluskan",
+            "15 lembar kulit lumpia",
+            "100g wortel, cincang",
+            "100g jamur kuping, cincang",
+            "3 sdm Royco Saus Tiram",
+            "1 sdt garam",
+            "¼ sdt merica putih bubuk",
+            "2 batang daun bawang, iris tipis",
+            "4 siung bawang putih, cincang",
+            "5 buah cabai rawit merah, cincang halus",
+            "Minyak, untuk menggoreng dan menumis"
+        ],
+        "prosedur" : [
+            "Panaskan 3 sdm minyak dalam wajan, tumis bawang putih dan cabai rawit merah hingga harum. Tambahkan wortel dan jamur kuping, aduk sebentar. Masukkan Royco Saus Tiram, garam, dan merica, masak hingga sayuran hampir matang.",
+            "Masukkan tahu, aduk sebentar. Angkat",
+            "Pindahkan ke dalam wadah atau mangkuk. Biarkan hingga tidak panas. Tambahkan telur bebek dan daun bawang, aduk.",
+            "Ambil selembar kulit lumpia, taruh 1 sdm penuh campuran tahu dan telur ke bagian tengahnya. Lipat membentuk persegi, rekatkan kulit dengan air. Ulangi proses serupa pada sisa bahan. Sisihkan.",
+            "Panaskan minyak di atas api sedang, goreng martabak tahu hingga kecokelatan. Angkat dan tiriskan. Sajikan"
+
+        ],
+        "kategori" : [
+            "lauk",
+            "panas",
+            "goreng",
+            "kering"
         ]
     }
     
