@@ -1,0 +1,40 @@
+<div class="modal fade" id="addToBookmarkModal" tabindex="-1" aria-labelledby="addToBookmarkModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="addToBookmarkModalLabel">Tambah Ke Bookmark</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="/makanan/<%= data.nama_makanan %>/tambahKeBookmark" method="POST">
+            <div class="modal-body">
+                <% if (bookmark.length != 0) { %> 
+                    <% for (const item of bookmark) { %>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="flexCheckDefault" name="id_bookmark" value="<%= item._id %>">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        <%= item.judul_bookmark %>
+                        </label>
+                    </div>
+                    <hr>
+                    <% } %>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Simpan</button>
+                </div>
+                <% } else { %>
+                    <div class="form-check">
+                        Bookmark kosong!
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Simpan</button>
+                </div>
+                <% } %>
+            </form>
+        </div>
+    </div>
+</div>

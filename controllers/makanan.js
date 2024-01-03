@@ -48,8 +48,8 @@ module.exports.renderProsedur = async (req, res) => {
     res.render('dashboard/prosedur', { data, user: req.user, bookmark: allUserBookmark })
 }                  
 module.exports.renderListMakanan = async (req, res) => {
+    
     allMakanan = await Makanan.find({});
-
     const allUserBookmark = [];
     for (const item of req.user.bookmark) {
         allUserBookmark.push(await Bookmark.findById(item));

@@ -36,5 +36,19 @@ module.exports.addBookmark = async (req, res) => {
         req.flash('error', 'Bookmark dengan nama '+ judul +' telah ada!');
         res.redirect('/makanan/rekomendasi');
     }
+}
 
+module.exports.renderDetailBookmark = async (req, res) => {
+    const allUserBookmark = [];
+    for (const item of req.user.bookmark) {
+        allUserBookmark.push(await Bookmark.findById(item));
+    }
+    
+    const bookmark = await Bookmark.findOne({ judul_bookmark : req.params.id });
+    const allMakanan = [];
+    for (let makanan of bookmark.makanan) {
+        allMakanan.push(await Makanan.findById(makanan));
+    }
+
+    res.render('dashboard/show-makanan', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark });
 }
