@@ -43,6 +43,36 @@ module.exports.addBookmark = async (req, res) => {
     }
 }
 
+module.exports.removeBookmark = async (req, res) => {
+    const user = await User.findById(req.user._id);
+    const { ids } = req.body;
+    try {
+        if (typeof ids === "object") {
+            for (let id of ids) {
+                let index = user.bookmark.indexOf(id);
+                if (index !== -1) {
+                    user.bookmark.splice(index, 1);
+                }
+                await Bookmark.findOneAndDelete({ _id: id });
+            }
+        } else if (typeof ids === "string") {
+            let index = user.bookmark.indexOf(ids);
+            if (index !== -1) {
+                user.bookmark.splice(index, 1);
+            }
+            
+        } else {
+            console.log("terjadi sesuatu");
+        }
+    }catch (err) {
+        console.log(err);
+    }
+    user.save();
+    await Bookmark.findOneAndDelete({ _id: ids });
+    res.redirect('/bookmark');
+
+}
+
 module.exports.renderDetailBookmark = async (req, res) => {
     const allUserBookmark = [];
     for (const item of req.user.bookmark) {

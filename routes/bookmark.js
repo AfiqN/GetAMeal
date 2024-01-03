@@ -10,6 +10,9 @@ router.route('/')
 router.route('/tambah')
     .post(isLoggedIn, bookmark.addBookmark);
 
+router.route('/hapus')
+    .post(isLoggedIn, bookmark.removeBookmark);
+
 router.route('/:id/tambahMakanan')
     .post(isLoggedIn, bookmark.addBookmark);
 

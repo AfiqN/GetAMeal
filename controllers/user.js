@@ -23,7 +23,6 @@ module.exports.renderSignInView = (req, res) => {
 }
 
 module.exports.signInUser = (req, res) => {
-    console.log('tes flash');
     req.flash('success', 'Berhasil Login');
     const redirectUrl = res.locals.returnTo || '/makanan/rekomendasi';
     res.redirect(redirectUrl);
