@@ -88,8 +88,8 @@ app.use('/makanan', routeMakanan);
 app.use('/bookmark', routeBookmark);
 
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, ()=>{
-    console.log('listening on http://localhost:3000');
+    console.log('listening on http://localhost:8000');
 })
