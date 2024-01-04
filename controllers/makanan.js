@@ -127,6 +127,7 @@ module.exports.tambahKeBookmark = async (req, res) => {
             console.log(err);
             req.flash('error', 'Makanan telah ada pada bookmark');
         }
+        
     } else {
         req.flash('error', 'Anda tidak memilih apapun');
     }
