@@ -25,7 +25,7 @@ module.exports.renderBookmark = async (req, res) => {
 module.exports.addBookmark = async (req, res) => {
     const { judul } = req.body;
     let condition = true;
-    
+
     for (let userBookmark of req.user.bookmark) {
         let check = await Bookmark.findOne({ _id : userBookmark });
         if (check.judul_bookmark === judul) {
@@ -79,16 +79,73 @@ module.exports.removeBookmark = async (req, res) => {
 
 module.exports.renderDetailBookmark = async (req, res) => {
     
+    const makananBookmark = [];
     const allUserBookmark = [];
+
     for (const item of req.user.bookmark) {
         allUserBookmark.push(await Bookmark.findById(item));
     }
+
+    const selectedBm = await Bookmark.findById(req.params.id);
     
+    for (const idM of selectedBm.makanan) {
+        makananBookmark.push(await Makanan.findById(idM));
+    }
+
     const bookmark = await Bookmark.findOne({ _id : req.params.id });
     const allMakanan = [];
     for (let makanan of bookmark.makanan) {
         allMakanan.push(await Makanan.findById(makanan));
     }
 
-    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark });
+    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark });
+}
+ 
+module.exports.removeFromBookmark = async (req, res) => {
+
+    const makananBookmark = [];
+    const allUserBookmark = [];
+    const allMakanan = [];
+    const { idMakanan } = req.body;
+    // console.log(req.params.id);
+    // console.log(idMakanan);
+    const selectedBm = await Bookmark.findById(req.params.id);
+    
+    try {
+
+        if (typeof idMakanan == 'object') {
+            for (let id of idMakanan) {
+                let index = selectedBm.makanan.indexOf(id);
+                if (index !== -1) {
+                    selectedBm.makanan.splice(index, 1);
+                }
+            }
+        } else if (typeof idMakanan == 'string') {
+            let index = selectedBm.makanan.indexOf(idMakanan);
+            if (index !== -1) {
+                selectedBm.makanan.splice(index, 1);
+            }
+        }
+
+        await selectedBm.save();
+
+        for (const item of req.user.bookmark) {
+            allUserBookmark.push(await Bookmark.findById(item));
+        }
+
+        
+        for (const idM of selectedBm.makanan) {
+            makananBookmark.push(await Makanan.findById(idM));
+        }
+
+        // const bookmark = await Bookmark.findOne({ _id : req.params.id });
+        
+        for (let makanan of selectedBm.makanan) {
+            allMakanan.push(await Makanan.findById(makanan));
+        }
+    } catch (err) {
+        console.log(err);
+    }
+
+    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark });
 }
