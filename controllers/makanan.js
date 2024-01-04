@@ -93,13 +93,14 @@ module.exports.renderCariMakanan = async (req, res) => {
     res.render('dashboard/show-makanan', { dataMakanan: cariMakanan, user: req.user, bookmark: allUserBookmark });
 }
 module.exports.tambahKeBookmark = async (req, res) => {
-    const { id_bookmark } = req.body;
+    const { idBookmark } = req.body;
     const makananIdCheck = await Makanan.findOne({ nama_makanan: req.params.id });
 
-    if (typeof id_bookmark === "object"){ 
+    if (typeof idBookmark === "object"){ 
         try {
-            for (const bId of id_bookmark) {
-                const selectBm = await Bookmark.findById(bId);
+            for (const idB of idBookmark) {
+                const selectBm = await Bookmark.findById(idB);
+                
                 if (!selectBm.makanan.includes(makananIdCheck._id)) {
                     const selectM = await Makanan.findOne({ nama_makanan: req.params.id });
                     selectBm.makanan.push(selectM._id);
@@ -110,22 +111,21 @@ module.exports.tambahKeBookmark = async (req, res) => {
             console.log(err);
             req.flash('error', 'Makanan telah ada pada bookmark');
         }
-    } else if (typeof id_bookmark === "string") {
-        const bookmarkWithMakanan = await Bookmark.findOne({
-            makanan: { $in: [makananIdCheck._id] }
-        });
-        if (bookmarkWithMakanan) {
-            req.flash('error', 'Makanan telah ada pada bookmark');
-        } else {
-            try {
-                const selectBm = await Bookmark.findById(id_bookmark);
+    } else if (typeof idBookmark === "string") {
+        try {
+            const selectBm = await Bookmark.findById(idBookmark);
+            
+            if (selectBm.makanan.includes(makananIdCheck._id)) {
+                req.flash('error', 'Makanan telah ada pada bookmark');
+            } else {
+                const selectBm = await Bookmark.findById(idBookmark);
                 const selectM = await Makanan.findOne({nama_makanan: req.params.id});
                 selectBm.makanan.push(selectM._id);
                 await selectBm.save();
-            } catch (err) {
-                console.log(err);
-                req.flash('error', 'Makanan telah ada pada bookmark');
             }
+        } catch (err) {
+            console.log(err);
+            req.flash('error', 'Makanan telah ada pada bookmark');
         }
     } else {
         req.flash('error', 'Anda tidak memilih apapun');

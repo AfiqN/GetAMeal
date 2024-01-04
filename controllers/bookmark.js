@@ -24,10 +24,17 @@ module.exports.renderBookmark = async (req, res) => {
 
 module.exports.addBookmark = async (req, res) => {
     const { judul } = req.body;
+    let condition = true;
     
-    const check = await Bookmark.findOne({ judul_bookmark : judul });
+    for (let userBookmark of req.user.bookmark) {
+        let check = await Bookmark.findOne({ _id : userBookmark });
+        if (check.judul_bookmark === judul) {
+            condition = false;
+            break;  
+        }
+    }
     
-    if (check == null) {
+    if (condition) {
         const newBookmark = new Bookmark({ judul_bookmark : judul });
         await newBookmark.save();
     
@@ -60,10 +67,7 @@ module.exports.removeBookmark = async (req, res) => {
             if (index !== -1) {
                 user.bookmark.splice(index, 1);
             }
-            
-        } else {
-            console.log("terjadi sesuatu");
-        }
+        } 
     }catch (err) {
         console.log(err);
     }
@@ -74,12 +78,13 @@ module.exports.removeBookmark = async (req, res) => {
 }
 
 module.exports.renderDetailBookmark = async (req, res) => {
+    
     const allUserBookmark = [];
     for (const item of req.user.bookmark) {
         allUserBookmark.push(await Bookmark.findById(item));
     }
     
-    const bookmark = await Bookmark.findOne({ judul_bookmark : req.params.id });
+    const bookmark = await Bookmark.findOne({ _id : req.params.id });
     const allMakanan = [];
     for (let makanan of bookmark.makanan) {
         allMakanan.push(await Makanan.findById(makanan));

@@ -28,7 +28,7 @@
 
                 <% for (let i=0; i<bookmark.length; i++) { %>
                 <li class="list-group-item li-item">
-                    <a href="/bookmark/<%= bookmark[i].judul_bookmark %>">
+                    <a href="/bookmark/<%= bookmark[i]._id %>">
                         <img class="liIcon px-0 col-1 align-middle" src="/src/icon/star.svg">
                         <span class="ms-3 liBook px-0 col-10 align-middle" style="color: white;"><%= bookmark[i].judul_bookmark %></span>
                     </a>

@@ -87,14 +87,6 @@ app.use('/', routeUser);
 app.use('/makanan', routeMakanan);
 app.use('/bookmark', routeBookmark);
 
-// app.get('/', (req, res) => {
-//     try{
-//         res.render('/dashboard/dashboard');
-//     } catch (err) {
-//         res.status(500).send('Internal Server Error');
-//     }
-// }));
-
 
 const port = process.env.PORT || 3000;
 
