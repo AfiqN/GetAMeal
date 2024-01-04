@@ -39,3 +39,32 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="addFromBookmark" tabindex="-1" aria-labelledby="addFromBookmarkLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="addFromBookmarkLabel">Tambah Makanan</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="/bookmark/<%= selectedBm._id %>/tambah-makanan" method="POST">
+            <div class="modal-body overflow-y-auto" style="height: 60lvh;">
+                <% for (const item of makanan) { %>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="flexCheckDefault" name="idMakanan" value="<%= item._id %>">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <%= item.nama_makanan %>
+                        </label>
+                    </div>
+                    <hr>
+                    <% } %>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Tambah</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

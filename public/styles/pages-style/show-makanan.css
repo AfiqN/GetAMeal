@@ -11,3 +11,11 @@
     border: 1px solid black;
     border-radius: 16px;
 }
+.addBtn {
+    /* background-color: #e38c17; */
+    background-color: #F9A532;
+    font-weight: bold;
+    left: 15px;
+    border: 1px solid black;
+    border-radius: 16px;
+}

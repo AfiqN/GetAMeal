@@ -81,6 +81,7 @@ module.exports.renderDetailBookmark = async (req, res) => {
     
     const makananBookmark = [];
     const allUserBookmark = [];
+    const makanan = await Makanan.find();
 
     for (const item of req.user.bookmark) {
         allUserBookmark.push(await Bookmark.findById(item));
@@ -98,17 +99,54 @@ module.exports.renderDetailBookmark = async (req, res) => {
         allMakanan.push(await Makanan.findById(makanan));
     }
 
-    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark });
+    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark, makanan });
 }
- 
+module.exports.addFromBookmark = async (req, res) => {
+    const { idMakanan } = req.body;
+    const selectedBm = await Bookmark.findById(req.params.id);
+
+    if (typeof idMakanan === 'object') {
+        for (let id of idMakanan) {
+            if (!selectedBm.makanan.includes(id)) {
+                selectedBm.makanan.push(id);
+            }
+        }
+    } else if (typeof idMakanan === 'string') {
+        if (!selectedBm.makanan.includes(idMakanan)) {
+            selectedBm.makanan.push(idMakanan);
+        }
+    }
+    
+    await selectedBm.save();
+
+    const makananBookmark = [];
+    const allUserBookmark = [];
+    const makanan = await Makanan.find();
+
+    for (const item of req.user.bookmark) {
+        allUserBookmark.push(await Bookmark.findById(item));
+    }
+
+    
+    for (const idM of selectedBm.makanan) {
+        makananBookmark.push(await Makanan.findById(idM));
+    }
+
+    const bookmark = await Bookmark.findOne({ _id : req.params.id });
+    const allMakanan = [];
+    for (let makanan of bookmark.makanan) {
+        allMakanan.push(await Makanan.findById(makanan));
+    }
+
+    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark, makanan });
+} 
 module.exports.removeFromBookmark = async (req, res) => {
 
     const makananBookmark = [];
     const allUserBookmark = [];
     const allMakanan = [];
+    const makanan = await Makanan.find();
     const { idMakanan } = req.body;
-    // console.log(req.params.id);
-    // console.log(idMakanan);
     const selectedBm = await Bookmark.findById(req.params.id);
     
     try {
@@ -132,14 +170,9 @@ module.exports.removeFromBookmark = async (req, res) => {
         for (const item of req.user.bookmark) {
             allUserBookmark.push(await Bookmark.findById(item));
         }
-
-        
         for (const idM of selectedBm.makanan) {
             makananBookmark.push(await Makanan.findById(idM));
         }
-
-        // const bookmark = await Bookmark.findOne({ _id : req.params.id });
-        
         for (let makanan of selectedBm.makanan) {
             allMakanan.push(await Makanan.findById(makanan));
         }
@@ -147,5 +180,5 @@ module.exports.removeFromBookmark = async (req, res) => {
         console.log(err);
     }
 
-    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark });
+    res.render('dashboard/bookmark-detail', { dataMakanan: allMakanan, user: req.user, bookmark: allUserBookmark, selectedBm, makananBookmark, makanan });
 }

@@ -16,6 +16,9 @@ router.route('/hapus')
 router.route('/:id/hapus-makanan')
     .post(isLoggedIn, bookmark.removeFromBookmark);
 
+router.route('/:id/tambah-makanan')
+    .post(isLoggedIn, bookmark.addFromBookmark);
+
 router.route('/:id')
     .get(bookmark.renderDetailBookmark);
 
